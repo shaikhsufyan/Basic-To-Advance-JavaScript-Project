@@ -1,0 +1,39 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+.container{
+    text-align: center;
+    margin-top: 12px;
+}
+.container h1{
+    font-size: 43px;
+}
+
+.container img{
+    width: 320px;
+    font-size: 443px;
+   margin-top: 2%;
+    
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+  
+}
+
+.btn button{
+    width: 80px;
+    height: 40px;
+    border:2px solid black;
+    background-color: #fff;
+    outline: none;
+    margin-inline: 22px;
+    cursor: pointer;
+    font-size: 25px;
+     
+    
+}
