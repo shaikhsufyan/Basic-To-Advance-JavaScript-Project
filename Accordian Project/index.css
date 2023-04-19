@@ -1,0 +1,47 @@
+body{
+  background-color: rgb(230, 230, 230);
+  font-family: 'Poppins', sans-serif;
+}
+.container{
+  background-color: rgb(8, 134, 184);
+  width: 440px;
+  border-radius:4px ;
+  margin: 3%;
+  margin-left: 30%;
+}
+.qs{
+  display: flex;
+  margin-left: 22px;
+  color: white;
+  height: 55px;
+  cursor: pointer;
+
+}
+.qs button{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 180px;
+  color: white;
+  
+}
+.hide{
+  display: none;
+}
+.ans{
+  background-color: #fff;
+  margin-top: -22px;
+  border-radius: 4px;
+}
+.ans p{
+  margin-left: 12px;
+  padding: 11px;
+  display: none;
+  font-size: 16px;
+}
+.active p{
+  display: block;
+
+}
