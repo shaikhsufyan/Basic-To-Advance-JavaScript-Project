@@ -1,0 +1,28 @@
+.container{
+    width: 450px;
+    padding: 22px;
+    margin-left: 30%;
+   text-align: center;
+   background-color: rgb(18, 105, 105);
+   color: white;
+   font-size: 20px;
+   font-family: 'Mulish', sans-serif;
+   margin-top: 3%;
+   background-color: rgb(1, 145, 145);
+
+}
+img{
+    width: 20%;
+}
+button{
+    width: 130px;
+    height: 38px;
+    border: none;
+    font-size: 24px;
+    padding: 5px;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(231, 21, 21);
+    color: white;
+    border-radius: 4px;
+}
