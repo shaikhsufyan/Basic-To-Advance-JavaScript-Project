@@ -1,0 +1,48 @@
+/* linear-gradient(45deg, #0a0a0a, #3a4452); */
+
+body{
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+#display{
+    width: 370px;
+    height: 540px;
+    border: 1px solid rgb(213, 209, 209);
+    border-radius: 4px;
+    text-align: center;
+    margin: 55px;
+    margin-left: 33%;
+}
+#show{
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    margin: 22px;
+    margin-top: 25px;
+    text-align: right;
+    font-size: 40px;
+}
+::placeholder{
+    color: white;
+}
+#sym{
+    color: rgb(4, 218, 4);
+}
+#equal{
+    background-color: rgb(255, 157, 0);
+}
+
+.btn{
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    margin: 10px;
+    box-shadow: -4px -4px 10px rgba(201, 201, 201, 0.363);
+}

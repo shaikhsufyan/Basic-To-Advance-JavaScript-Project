@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="index.css">
+ </head>
+ <body>
+   <form action="" id="display">
+      <input type="text" id="show" value="" placeholder="0">
+      <br>
+      <input type="button" id="sym" class="btn" value="AC" onclick="display.show.value =' ' ">
+      <input type="button" id="sym" class="btn" value="DEL" onclick="display.show.value = display.show.value.toString().slice(0, -1) ">
+      <input type="button" id="sym" class="btn" value="." onclick="display.show.value +='.' ">
+      <input type="button" id="sym" class="btn" value="%" onclick="display.show.value +='%' ">
+
+      <br> 
+      <input type="button" class="btn" value="1" onclick="display.show.value +='1' ">
+      <input type="button" class="btn" value="2" onclick="display.show.value +='2' ">
+      <input type="button" class="btn" value="3" onclick="display.show.value +='3' ">
+      <input type="button" id="sym" class="btn" value="/" onclick="display.show.value +='/' ">
+      <br>
+      <input type="button" class="btn" value="4" onclick="display.show.value +='5' ">
+      <input type="button" class="btn" value="5" onclick="display.show.value +='6' ">
+      <input type="button" class="btn" value="6" onclick="display.show.value +='7' ">
+      <input type="button" id="sym" class="btn" value="*" onclick="display.show.value +='*' ">
+      <br>
+      <input type="button" class="btn" value="7" onclick="display.show.value +='7' ">
+      <input type="button" class="btn" value="8" onclick="display.show.value +='8' ">
+      <input type="button" class="btn" value="9" onclick="display.show.value +='9' ">
+      <input type="button" id="sym" class="btn" value="-" onclick="display.show.value +='-' ">
+      <br>
+      <input type="button" class="btn" value="00" onclick="display.show.value +='00' ">
+      <input type="button" class="btn" value="0" onclick="display.show.value +='0' ">
+      <input type="button" id="equal" class="btn" value="=" onclick="display.show.value = eval(display.show.value) ">
+      <input type="button" id="sym" class="btn" value="+" onclick="display.show.value +='+' ">
+      <br>
+
+   </form>
+   
+ </body>
+ </html>
