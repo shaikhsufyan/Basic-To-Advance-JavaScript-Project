@@ -1,0 +1,44 @@
+
+body{
+    background-color: lightskyblue;
+     
+}
+
+.stop{
+    display: flex;
+}
+
+
+.container{
+    background-color: rgb(4, 85, 85);
+    width: 500px;
+    padding: 43px;
+    text-align: center;
+    border: 3px solid white;
+    margin-left: 27%;
+    margin-top: 4%;
+}
+.container .txt{
+    font-size: 80px;
+    color: white;
+    display: flex;
+    margin-left: 12%;
+
+    
+
+}
+ 
+.container button{
+    width: 120px;
+    height: 38px;
+    border: none;
+    background-color: rgb(233, 13, 13);
+    color: white;
+    margin-inline: 11px;
+    border-radius: 4px;
+    font-size: 22px;
+    margin-top: 22px;
+    outline: none;
+
+}
+
