@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(7, 46, 46);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 450px;
+    margin-top: 3%;
+    background-color: #fff;
+    margin-left: 33%;
+    padding: 5px;
+}
+.head{
+    text-align: center;
+}
+input{
+    font-size: 33px;
+    outline: none;
+    cursor: pointer;
+
+}
+.text{
+    margin-left: 21px;
+}
+label{
+    font-size: 19px;
+    margin-left: 8px;
+} 
+.score{
+    text-align: center;
+    padding: 11px;
+}
+
+button{
+    width: 130px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: rgb(5, 102, 248);
+    color: white;
+    font-size: 23px;
+    
+}

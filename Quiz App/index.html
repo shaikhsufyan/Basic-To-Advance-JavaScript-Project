@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto+Condensed:wght@700&family=Roboto+Slab&family=Roboto:wght@300;400&family=Source+Sans+Pro:wght@300&display=swap"
+    rel="stylesheet">
+ </head>
+ <body>
+    <div class="container">
+        <h2 class="head">Quiz App</h2>
+        <div class="quiz">
+            <div>
+                <h2 id="qns"></h2>
+            </div>
+            <div>
+                <input type="radio" id="ans1" class="options" name="option">
+                <label id="opt1"></label>
+            </div>
+            <div>
+                <input type="radio" id="ans2" class="options" name="option">
+                <label id="opt2"></label>
+            </div>
+            <div>
+                <input type="radio" id="ans3" class="options" name="option">
+                <label id="opt3"></label>
+            </div>
+            <div>
+                <input type="radio" id="ans4" class="options" name="option">
+                <label id="opt4"></label>
+            </div>
+
+            <div class="btn">
+                <h2 class="myScore"></h2>
+                <button onclick="next()" id="next">Next</button>
+            </div>
+        </div>
+    </div>
+     
+    <script src="index.js"></script>
+ </body>
+ </html>
