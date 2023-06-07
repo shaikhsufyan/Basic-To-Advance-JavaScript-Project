@@ -1,0 +1,41 @@
+/* font-family: 'Roboto Condensed', sans-serif; */
+
+body{
+    background-color: rgb(4, 25, 25);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.container{
+    width: 320px;
+    padding: 16px;
+    text-align: center;
+    margin-left: 33%;
+    background-color: #fff;
+    margin-top: 3%;
+}
+input{
+    width: 280px;
+    padding: 8px;
+    border: 1px solid rgb(114, 113, 113);
+    font-size: 20px;
+}
+button{
+    width: 308px;
+    height: 42px;
+    background-color: rgb(5, 103, 251);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    margin-top: 4%;
+    font-size: 25px;
+}
+img{
+    margin-top: 11%;
+}
+
+
+
+
+
+
+

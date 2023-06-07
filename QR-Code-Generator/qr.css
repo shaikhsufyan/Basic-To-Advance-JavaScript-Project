@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(5, 24, 24);
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+    width: 320px;
+    background-color: #fff;
+    border: none;
+    text-align: center;
+    padding: 16px;
+    margin-left: 33%;
+    margin-top: 2%;
+    border-radius: 4px;
+
+}
+input{
+    width: 290px;
+    padding: 8px;
+    border: 1px solid rgb(121, 119, 119);
+    outline: none;
+    font-size: 19px;
+}
+button{
+    width: 308px;
+    height: 42px;
+    margin-top: 4%;
+    background-color: rgb(5, 89, 247);
+    color: white;
+    font-size: 24px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+img{
+    margin-top: 10%;
+}
