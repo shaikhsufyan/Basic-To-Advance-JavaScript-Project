@@ -1,0 +1,55 @@
+body{
+  font-family: 'Mukta', sans-serif;
+  background-color: rgb(9, 9, 42);
+
+}
+.container{
+  margin: 33px;
+  margin-left: 27%;
+  margin-top: 3%;
+  text-align: center;
+   
+}
+#div1,
+#div2,
+#div3,
+#div4,
+#div5,
+#div6,
+#div7,
+#div8,
+#div9{
+  border: 4px solid white;
+  width: 220px;
+  height: 130px;
+  float: left;
+  color: white;
+  font-size: 90px;
+  text-align: center;
+  
+}
+#div1,
+#div2,
+#div3{
+  border-top: none;
+}
+#div1,
+#div4,
+#div7{
+  border-left: none;
+}
+#div7,
+#div8,
+#div9{
+  border-bottom: none;
+}
+#div3,
+#div6,
+#div9{
+  border-right: none;
+}
+
+
+
+
+
