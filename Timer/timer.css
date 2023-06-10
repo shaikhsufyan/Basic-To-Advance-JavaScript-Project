@@ -1,0 +1,27 @@
+body{
+    background-color: lightblue;
+}
+input{
+    border: none;
+    outline: none;
+    width: 40px;
+    font-size: 23px;
+}
+.container{
+    text-align: center;
+    background-color: #fff;
+    width: 380px;
+    padding: 42px;
+    margin-left: 33%;
+}
+button{
+    width: 100px;
+    height: 35px;;
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    margin-top: 31px;
+    margin-inline: 11px;
+}
