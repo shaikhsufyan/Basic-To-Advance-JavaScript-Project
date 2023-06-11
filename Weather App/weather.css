@@ -1,0 +1,58 @@
+ body{
+    font-family: 'Lato', sans-serif;
+     display: flex;
+     justify-content: center;
+     background-color: black;
+ }  
+ .srh{
+    display: flex;
+    margin-top: 11px;
+ }
+ input{
+    width: 200px;
+    padding: 16px;
+    border-radius: 16px;
+    height: 8px;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    background-color: rgb(206, 236, 246);
+ }
+ button{
+    width: 70px;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: rgb(191, 235, 250);
+    margin-top: 2px;
+    margin-inline: 9px;
+ }
+ ::placeholder{
+    color: black;
+ }
+ #city{
+    margin-top: 33px;
+    font-size: 33px;
+ }
+ #temp{
+    font-size: 40px;
+    margin-top: -13px;
+ }
+ #type{
+    font-size: 26px;
+    margin-top: -33px;
+ }
+ .container{
+    width: 300px;
+    padding: 22px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 2%;
+    background-color: #fff;
+ }
+ img{
+    width: 210px;
+    margin-top: -22px;
+ }
