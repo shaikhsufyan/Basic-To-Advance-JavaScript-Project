@@ -1,0 +1,22 @@
+ body{
+   font-family: 'Lato', sans-serif ;
+   background-color: rgb(6, 6, 35);
+ }
+ .container{
+   text-align: center;
+   margin-top: 22px;
+ }
+ h1{
+   color: #fff;
+   font-size: 40px;
+ }
+ button{
+   width: 100px;
+   height: 135px;
+   background-color: #fff;
+   font-size: 40px;
+   border: none;
+   outline: none;
+   border-radius: 2px;
+   margin-inline: 11px;
+ }
