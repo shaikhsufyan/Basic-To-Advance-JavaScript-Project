@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(6, 6, 39);
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+     
+}
+.container{
+    width: 280px;
+    padding: 22px;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 3%;
+    border-radius: 4px;
+}
+#pass{
+    width: 250px;
+    padding: 9px;
+    height: 13px;
+    outline: none;
+    font-size: 20px;
+     border: 2px solid rgb(43, 43, 43);
+}
+.option{
+    margin-top: 12%;    
+}
+.text p{
+    margin-left: 11px;
+    font-size: 20px;
+}
+.text #length{
+    width: 16px;
+    height: 13px;
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 22px;
+}
+.text   input[type=checkBox]{
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 24px;
+    width: 19px;
+    height: 20px;
+    accent-color: rgb(4, 163, 4);
+   
+}
+.text{
+    display: flex;
+    margin-top: -22px;
+}
+#btn{
+    width: 260px;
+    height: 35px;
+    background-color: rgb(12, 12, 78);
+    color: white;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    margin-top: 11px;
+    cursor: pointer;
+
+}
+.inputBox{
+    display: flex;
+}
+.inputBox span{
+    margin-left: -27px;
+    margin-top: 5px;
+    font-size: 22px;
+    color: rgb(1, 1, 105);
+    cursor: pointer;
+}

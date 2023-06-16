@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pass.css">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <div class="container">
+       <div class="inputBox">
+        <input type="text" id="pass" value=""><span class="fa-regular fa-copy" id="cpoy" onclick="copied()"></span>
+       </div>
+       <div class="option">
+        <div class="text"  >
+            <p>Password Length</p>  <input type="number" value="8" id="length"  > 
+          </div>
+          <div class="text"  >
+            <p>Including UpperCase</p>  <input type="checkbox" id="up">
+          </div>
+          <div class="text">
+              <p>Including LowerCase</p><input type="checkbox" id="low">
+          </div>
+          <div class="text">
+              <p>Including Number</p><input type="checkbox" id="num">
+          </div>
+          <div class="text">
+              <p>Including Symbol</p><input type="checkbox" id="sym">
+          </div>
+       </div>
+        <button onclick="clicked()" id="btn">Generate Password</button>
+    </div>
+    <script src="pass.js"></script>
+</body>
+</html>

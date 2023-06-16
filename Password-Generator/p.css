@@ -1,0 +1,68 @@
+ body{
+    background-color: rgb(6, 6, 46);
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+ }
+ .container{
+    width: 280px;
+    padding: 22px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 3%;
+
+ }
+  #passwordInput{
+    width: 250px;
+    padding: 11px;
+    height: 11px;
+    border: 2px solid rgb(31, 30, 30);
+    font-size: 19px;
+  }
+
+  .inputs i{
+    position: absolute;
+    margin-left: -29px;
+    margin-top: 6px;
+    font-size: 25px;
+    color: rgb(7, 7, 95);
+  }
+
+  .text #passwordLength{
+    width: 18px;
+    height: 15px;
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 19px;
+  }
+  .text input[type=checkBox]{
+    width:20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 22px;
+     accent-color: rgb(3, 156, 3);
+  }
+  .option{
+    margin-top: 32px;
+  }
+  .text p{
+    margin-left: 11px;
+    font-size: 20px;
+  }
+ .text{
+    display: flex;
+    margin-top: -18px;
+ }
+button{
+    margin-top: 12px;
+    width: 274px;
+    height: 35px;
+    background-color: rgb(5, 5, 78);
+    color: white;
+    font-size: 20px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}

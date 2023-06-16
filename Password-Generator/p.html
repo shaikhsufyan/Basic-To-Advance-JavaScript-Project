@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="p.css">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+    <div class="container">
+       
+           
+            <div class="inputs">
+                <input type="text" id="passwordInput" value="" ><i class="fa-solid fa-copy"></i>
+            </div>
+            <div class="option">
+            <div class="text">
+                <p>Password Length</p><input type="text" id="passwordLength" value="8">
+            </div>
+            <div class="text">
+               <p>Including UpperCase</p> <input type="checkbox" id="upper" >
+            </div>
+            <div class="text">
+                <p>Including LowerCase</p> <input type="checkbox" id="lower" >
+            </div>
+            <div class="text">
+                <p>Including Number</p><input type="checkbox" id="num" >
+            </div>
+            <div class="text">
+                <p>Including Symnol</p><input type="checkbox" id="sym" >
+            </div>
+           </div>
+            <button onclick="myFun()">Generate Password</button>
+         
+    </div>
+    <script src="p.js"></script>
+ </body>
+ </html>
