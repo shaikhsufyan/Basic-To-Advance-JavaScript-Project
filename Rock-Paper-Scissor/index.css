@@ -1,0 +1,50 @@
+*{
+    margin: 1px;
+    padding: 2px;
+}
+.head {
+    background-color: rgb(255, 63, 63);
+    padding: 11px;
+    width: 98%;
+    color: white;
+    
+}
+
+body{
+    background-color: rgb(35, 184, 82);
+}
+
+.container{
+    
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h2{
+    margin-inline: 33px;
+    cursor: pointer;
+}
+
+.result{
+    display: flex;
+     justify-content: center;
+}
+
+.game{
+    
+    text-align: center;
+}
+span{
+    display: flex;
+    justify-content: center;
+     
+
+
+}
+ img{
+ width: 60px;
+ cursor: pointer;
+    
+}
+

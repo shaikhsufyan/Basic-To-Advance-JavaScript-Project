@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(3, 3, 32);
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    text-align: center;
+    color: white;
+}
+h1{
+    background-color: #fff;
+    font-size: 44px;
+    color: black;
+}
+.score{
+    display: flex;
+    justify-content: center;
+}
+.score .computer{
+    margin-left: 63px;
+}
+.user{
+    display: flex;
+    justify-content: center;
+}
+.computer{
+    display: flex;
+    justify-content: center;
+}
+.rs{
+    display: flex;
+    justify-content: center;
+}
