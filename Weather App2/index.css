@@ -1,0 +1,89 @@
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+.container{
+     
+    margin-left: 33%;
+     
+    text-align: center;
+    background-color: rgb(36, 165, 154);
+    width: 330px;
+    padding: 11px;
+    color: white;
+    border: 2px solid white;
+}
+span{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 44px;
+    margin-top: -43px;
+}
+#type{
+    margin-top: -33px;
+}
+ #img{
+    width: 200px;
+ }
+ ::placeholder {  
+   color: white;
+  }
+ .container input{
+    width: 200px;
+    height: 27px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+    background-color: rgb(36, 165, 154);
+     
+    color: black;
+    
+ }
+ button{
+    width: 80px;
+    height: 33px;
+    margin: 8px;
+     font-size: 18px;
+    border: none;
+    background-color:black ;
+    color: white;
+    cursor: pointer;
+    outline: none;
+ }
+ @media only screen and (max-width:600px) {
+    .container {
+       margin-left:100px;
+    }
+  }
+  @media only screen and (max-width:470px) {
+    .container {
+       margin-left:4%;
+       display: block;
+       justify-content: center;
+    }
+  }
+
+  @media only screen and (max-width:380px) {
+   .container {
+      margin-left:13px;
+      width: 260px;
+   }
+ }
+
+ @media only screen and (max-width:310px) {
+   .container {
+      margin-left: 0;
+      width: 260px;
+   }
+ }
+
+  @media only screen and (max-width:280px) {
+   .container {
+      width: 200px;
+      margin-left: 16px;
+   }
+ }
+
+ 
