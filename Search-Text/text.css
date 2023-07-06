@@ -1,0 +1,47 @@
+ body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #f9f5f5;
+    font-family: 'Roboto', sans-serif;
+ }
+ .search{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: -22px;
+    padding: 22px;
+ }
+ .search h1{
+    font-size: 44px;
+    margin-top: 8px;
+ }
+ .search input{
+    width: 600px;
+    height: 40px;
+    padding: 11px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 23px;
+ }
+  .head{
+    display: flex;
+    justify-content: center;
+  }
+.head h3{
+    margin-inline: 87px;
+    font-size: 22px;
+}
+table{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    width: 700px;
+    margin-left: 353px;
+    padding: 7px;
+}
+table tr td{
+    width: 222px;
+    font-size: 22px;
+    padding: 8px;
+}
