@@ -1,0 +1,325 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 30px; 
+    box-shadow: 0px 7px 7px 0px rgb(15, 15, 15);
+
+
+}
+nav input{
+    width: 600px;
+    border: none;
+    outline: none;
+    padding: 7px;
+    font-size: 22px;
+    border-radius: 3px;
+}
+nav .icon i{
+    font-size: 23px;
+    background-color: #ffffff;
+    padding: 8px;
+    border-radius: 3px;
+    margin-inline:4px;
+    color: black;
+}
+nav .input i{
+    color: black;
+    margin-left: -32px;
+    font-size: 21px;
+}
+.icon i:hover{
+    color: rgb(255, 136, 0);
+    cursor: pointer;
+}
+.logo h1{
+    font-size: 38px;
+    color: rgb(255, 136, 0);
+    margin-left: 11px;
+    margin-top: -3px;
+    font-family: 'Lato', sans-serif;
+}
+.logo h1:hover{
+    color: orange;
+    cursor: pointer;
+}
+.mainPage{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+}
+.mainPage img{
+    width: 35%;
+}
+.mainPage .text{
+    width: 500px;
+    margin-top:42px;
+}
+.text h1{
+    font-size: 65px;
+}
+.text p{
+    margin-top: 11px;
+    color: #f7f3f3;
+}
+.text button{
+    margin-top: 22px;
+    width: 160px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 102, 0);
+    color: white;
+    font-size: 24px;
+    border-radius: 3px;
+}
+.text button:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+.head h1{
+    text-align: center;
+    font-size: 43px;
+    color: white;
+    margin-top: 53px;
+    padding: 12px;
+    margin-left: 123px;
+}
+.head span{
+    color:  rgb(255, 102, 0);
+}
+.crd{
+    display: flex;
+    /* justify-content: center;s */
+    margin-left: 123px;
+    margin-top: 42px;
+    color: black;
+}
+.crd .card{
+    width: 300px;
+    background-color: #fff;
+    border-radius: 2px;
+    margin-inline: 11px;
+    padding: 11px;
+
+}
+.card img{
+    width: 100%;
+}
+.card h2{
+    margin-top: 11px;
+
+}
+.card p{
+    margin-top: 11px;
+}
+.card button{
+    margin-top: 21px;
+    width: 140px;
+    height: 38px;
+    background-color: rgb(255, 102, 0);
+    color: white;
+    font-size: 22px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+.card button:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+.review{
+    display: flex;
+  padding: 22px;
+    justify-content: center;
+    width: 900px;
+    height: 300px;
+    position: relative;
+    /* left: 42px; */
+    overflow: hidden;
+    margin: auto;
+
+
+}
+.review .customer{
+    
+    position: absolute;
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    background-color: #fff;
+    color: black;
+    transition: 0.6s ease;
+   
+
+}
+.customer img{
+    width: 32%;
+    border-radius: 50%;
+    
+}
+
+
+.customer i{
+    color: rgb(255, 102, 0);
+    font-size: 22px;
+    margin-top: 6px;
+}
+
+.btns{
+    position: absolute;
+    margin-top: 52px;
+    margin-left: 34%;
+    padding: 22px;
+}
+.btns button{
+    width: 140px;
+    height: 38px;
+    background-color: rgb(255, 102, 0);
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 22px;
+    border-radius: 2px;
+    margin-inline: 22px;
+    cursor: pointer;
+}
+.btns button:hover{
+    background-color: orange;
+}
+ 
+.crd .blog{
+    width: 300px;
+    background-color: #fff;
+    border-radius: 2px;
+    margin-inline: 11px;
+    padding: 11px;
+    height: 363px;
+}
+.blog img{
+    width: 100%;
+}
+.blog h2{
+    margin-top: 11px;
+}
+.blog p{
+    margin-top: 11px;
+}
+.blog a{
+     position: relative;
+    top: 23px;
+    width: 180px;
+    padding: 7px;
+    background-color: rgb(255, 123, 0);
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    color: white;
+    font-size: 22px;
+
+}
+.blog a:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+
+
+
+ 
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    margin-top: 144px;
+    padding: 63px;
+    color: black;
+}
+.footer .txt{
+    margin-inline: 83px;
+     
+}
+ .txt p{
+    color: black;
+    margin-top: 11px;
+
+ }
+
+
+
+
+
+
+
+ /* log in CSS */
+
+ .log{
+    display: none;
+    position: absolute;
+    margin-left: 82%;
+    margin-top: 1%;
+    width: 180px;
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    padding: 22px;
+    color: black;
+ }
+ .log input{
+    width: 155px;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+    margin-top: 14px;
+    outline: none;
+    padding: 7px;
+ }
+ .log button{
+    width: 130px;
+    height: 36px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 22px;
+    border: 2px;
+    background-color: rgb(255, 115, 0);
+    margin-top: 25px;
+    border-radius: 2px;
+ }
+
+ .nav{
+    display: none;
+    position: absolute;
+    margin-left: 82%;
+    margin-top: 1%;
+    width: 160px;
+    background-color: #fff;
+    border-radius: 4px;
+
+    padding: 22px;
+    color: black;
+ }
+ .nav p{
+     width: 110px;
+     padding: 11px;
+     margin-left: 22%;
+      
+ }
+ .nav p:hover{
+    background-color: #eeeeee;
+    color: rgb(255, 94, 0);
+    cursor: pointer;
+    border-radius: 2px;
+ }
