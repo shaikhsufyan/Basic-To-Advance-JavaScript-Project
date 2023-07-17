@@ -1,0 +1,373 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #eeeeee;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeeeee;
+    box-shadow: 0px 2px 2px 2px rgb(204, 203, 203);
+    padding: 20px;
+
+
+
+}
+ 
+nav .logo{
+    margin-left: 45px;
+    font-size:22px;
+    
+}
+nav h1{
+    font-family: 'Lato', sans-serif;
+}
+ul li a{
+    margin-inline: 25px;
+     font-size: 20px;
+     
+}
+ul #home{
+    color: rgb(1, 190, 190);
+}
+ul li i{
+    font-size: 22px;
+}
+ul li i:hover{
+    color: rgb(87, 86, 86);
+    cursor: pointer;
+}
+ul li a:hover{
+     color: rgb(87, 86, 86);
+     cursor: pointer;
+
+     border-bottom: 2px solid rgb(73, 73, 73);
+      
+}
+ul{
+    margin-right: 50px;
+    margin-top: 6px;
+}
+ 
+nav ul{
+    list-style: none;
+}
+.mainPage{
+    display: flex;
+    justify-content: space-around;
+}
+.mainPage .text{
+    margin-top: 123px;
+}
+.text button:hover{
+    border: 3px solid rgb(4, 168, 168);
+    background-color: transparent;
+    font-weight: 700;
+    color: rgb(4, 168, 168);
+    
+
+}
+.text h1{
+    font-size: 54px;
+}
+.mainPage img{
+   margin-top: -44px;
+   
+}
+.heads{
+    color: rgb(2, 131, 131);
+}
+.text p{
+    margin-top: 22px;
+}
+.text h2{
+    color: rgb(63, 63, 63);
+}
+.text button{
+    width: 140px;
+    height: 40px;
+    margin-top: 23px;
+    background-color: rgb(2, 131, 131);
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.head{
+    text-align: center;
+    padding: 44px;
+    margin-top: 11px;
+}
+.head span{
+    color: rgb(4, 155, 155);
+}
+.card{
+    display: flex;
+    justify-content: center;
+    padding: 22px;
+}
+.card .crd {
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    margin-inline: 22px;
+    
+}
+.card .crd:hover{
+    width: 320px;
+    height: 520px;
+    transition: 0.6s ease;
+}
+.crd .txt {
+    margin-left: 28px;
+ 
+}
+.txt i{
+    color: rgb(255, 196, 0);
+    margin-top: 4px;
+    font-size:19px;
+}
+.txt button{
+    width: 110px;
+    height: 33px;
+    border: none;
+    background-color: rgb(1, 148, 148);
+    color: white;
+    font-size: 16px;
+    margin-top: 8px;
+}
+ 
+.crd img{
+    width: 85%;
+    padding: 22px;
+    border-radius: 30px;
+}
+  
+.trd{
+    display: flex;
+    justify-content: center;
+    
+     
+}
+.trending{
+    display: flex;
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    margin-inline: 22px;
+    border-radius: 22px;
+
+}
+.trending .txt{
+    padding: 22px;
+    margin-top: 13%;
+}
+.txt a{
+    width: 140px;
+    height: 36px;
+    background-color: rgb(3, 94, 94);
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 7px;
+}
+.txt a:hover{
+    background-color: rgb(2, 146, 146);
+    cursor: pointer;
+    border-radius: 22px;
+    transition: 0.9 ease;
+}
+.trending img{
+    width: 55%;
+    border-radius: 22px;
+    padding: 12px;
+}
+.trending:hover{
+    width: 530px;
+    height: 330px;
+    transition: 0.7s ease;
+    cursor: pointer;
+}
+
+.letter{
+    background-color: rgba(11, 6, 37, 0.993);
+    padding: 44px;
+    margin-top: 63px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.letter .inp input{
+    width: 270px;
+    height: 29px;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    
+}
+.inp{
+    display: flex;
+}
+.inp button{
+    width: 100px;
+    height: 39px;
+    border: none;
+    background-color: rgb(3, 134, 134);
+    font-size: 18px;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(219, 218, 218);
+    padding: 42px;
+   
+}
+.footer .Ftext{
+    margin-inline: 72px;
+}
+.Ftext p{
+    margin-top: 22px;
+}
+
+
+/* about */
+
+.about{
+    display: none;
+}
+.aboutText{
+    background-color: rgb(1, 1, 43);
+    color: white;
+    padding: 54px;
+    font-size: 18px;
+
+}
+.aboutus{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    background-color: #fff;
+    padding: 22px;
+    margin-left: 17%;
+    margin-top: 8%;
+    border-radius: 6px;
+}
+.dumiText{
+    margin-top: 66px;
+}
+.dumiText p{
+    margin-top: 11px;
+}
+
+.aboutus img{
+    width: 54%;
+}
+
+/* contact */
+
+.contact{
+    display: none;
+}
+.contactBanner{
+    background-color: rgb(4, 4, 44);
+    color: white;
+    padding: 55px;
+}
+.connect{
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+    
+    
+}
+.connectText{
+    background-color: #fff;
+    padding: 53px;
+}
+.connectText p{
+    margin-top: 21px;
+}
+.contact img{
+    width: 50%;
+}
+.contact img:hover{
+    width: 52%;
+    transition: 0.8s ease;
+    cursor: pointer;
+
+}
+.form{
+    text-align: center;
+    margin-top: 73px;
+}
+.form button{
+    width: 340px;
+    height: 40px;
+    border: none;
+    background-color: rgb(1, 87, 87);
+    color: white;
+    font-size: 22px;
+    margin-top: 22px;
+}
+.form input{
+    width: 320px;
+    padding: 8px;
+    outline: none;
+    margin: 3px;
+    margin-top: 11px;
+}
+
+/* FullPage */
+
+.fullPage{
+    
+    display: flex;
+    justify-content: center;
+    display: none;
+    margin-top: 22px;
+}
+.fullPage .cartText{
+    padding: 22px;
+    margin-top: 33px;
+}
+.cartText p{
+    margin-top: 11px;
+}
+.cartText .btn button{
+    width: 140px;
+    height: 40px;
+    background: rgb(247, 133, 2);
+    color: white;
+    border: none;
+    font-size: 22px;
+    margin-top: 22px;
+}
+.btn button:hover{
+    background-color: rgb(253, 173, 25);
+    cursor: pointer;
+}
+.cartText h2{
+    margin-top: 11px;
+}
+.relode{
+    background-color: rgb(3, 75, 75);
+    color: white;
+    width: 140px;
+    height: 34px;
+    border: none;
+    font-size: 22px;
+    margin-top: 22px;
+}
+.relode:hover{
+    background-color: rgb(4, 141, 141);
+    cursor: pointer;
+
+}
