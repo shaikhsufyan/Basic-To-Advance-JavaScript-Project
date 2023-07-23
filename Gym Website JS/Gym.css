@@ -1,0 +1,270 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+ }
+body{
+    background-color:rgb(1, 1, 14);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(1, 1, 14);
+    padding: 22px;
+    box-shadow: 0px 2px 6px 2px rgb(31, 30, 30);
+    color: white;
+
+
+}
+nav ul li a{
+    margin-inline: 22px;
+    text-decoration: none;
+    color: white;
+}
+ul li{
+    list-style: none;
+}
+nav ul{
+    margin-right: 63px;
+    margin-top: 6px;
+}
+.logo{
+    font-size: 25px;
+    margin-left: 33px;
+    color: rgb(42, 250, 42);
+}
+ul li button{
+    width: 100px;
+    height: 33px;
+    background-color: rgb(4, 180, 4);
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+ ul li button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(20, 251, 20);
+    cursor: pointer;
+ }
+  ul li a:hover{
+    color: rgb(20, 251, 20);
+    border-bottom: 2px solid rgb(20, 251, 20); ;
+
+  }
+
+  /* main */
+
+  .home{
+    display: flex;
+    justify-content: center;
+  }
+  .home img{
+    width: 59%;
+    margin-top: 130px;
+    margin-left: -174px;
+  }
+  .home .homeText{
+    margin-top: 200px;
+    margin-left: 44px;
+  }
+  .homeText h1{
+    font-size: 85px;
+    color: rgb(55, 248, 55);
+  }
+  .homeText h3{
+    margin-top: 22px;
+    font-size: 22px;
+  }
+  .homeText p{
+    margin-top: 22px;
+    color: silver;
+  }
+  .homeText button{
+    margin-top: 22px;
+    font-size: 22px;
+    width: 140px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border: none;
+  }
+  .homeText button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(23, 252, 23);
+
+  }
+
+  .head{
+    text-align: center;
+    padding: 95px;
+  }
+  .head span{
+    color: rgb(37, 244, 37);
+  }
+  .ourProgram{
+    display: flex;
+    justify-content: center;
+  }
+  .ourProgram .crd{
+    margin-inline: 22px;
+    text-align: center;
+  }
+  .ourProgram .crd img:hover{
+    width: 103%;
+  }
+
+  /* plan */
+  .ourPlan{
+    display: flex;
+    justify-content: center;
+  }
+  .ourPlan .card{
+    width: 300px;
+    height: 400px;
+    padding: 4px;
+    background-color: rgb(36, 35, 35);
+    text-align: center;
+    margin-inline: 22px;
+  }
+  .card i{
+    font-size: 22px;
+    margin-top: 22px;
+    color: orange;
+  }
+  .card h3{
+    margin-top: 22px;
+    color: rgb(58, 249, 58);
+
+  }
+  .card h1{
+    margin-top: 22px;
+    color: rgb(24, 255, 24);
+  }
+  .card p{
+    margin-top: 12px;
+    color: silver;
+  }
+  .card button{
+    margin-top: 22px;
+    width: 130px;
+    height: 38px;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-size: 18px;
+  }
+  .card button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(35, 252, 35);
+    cursor: pointer;
+  }
+  .card:hover{
+    transition: 0.7s ease;
+    width: 310px;
+    height: 440px;
+    background-color: black;
+    font-size: 19px;
+    cursor: pointer;
+
+  }
+
+  /* blog */
+  .ourBlog{
+    display: flex;
+    justify-content: center;
+  }
+  .ourBlog .blogCard{
+    width: 300px;
+    height: 400px;
+    margin-inline: 22px;
+    background-color: rgb(42, 41, 41);
+     
+  }
+  .blogCard img{
+    width: 100%;
+  }
+  .blogCard p{
+    margin-top: 22px;
+  }
+  .blogText a{
+    text-decoration: none;
+    width: 90px;
+    padding: 11px;
+    background-color: green;
+    color: white;
+    position: absolute;
+    margin-top: 22px;
+    cursor: pointer;
+
+  }
+  .blogText{
+    margin-top: 11px;
+    margin-left: 6px;
+  }
+
+  /* cantact */
+  .contactPage{
+    display: flex;
+    justify-content: center;
+  }
+  .contactText{
+    margin-left: 33px;
+    color: rgb(33, 249, 33);
+    margin-top: 134px;
+    font-size: 32px;
+  }
+  .contactPage img{
+    width: 60%;
+    margin-left: -33px;
+  }
+  .contactUs{
+    text-align: center;
+    margin-top: 22px;
+  }
+  .contactUs input{
+    width: 350px;
+    padding: 8px;
+    height: 33px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    margin-top: 18px;
+  }
+  .contactUs button{
+    width: 365px;
+    height: 45px;
+    color: white;
+    border: none;
+    font-size: 22px;
+    background-color: rgb(41, 249, 41);
+    border-radius: 2px;
+    margin-top: 22px;
+  }
+  .contactUs button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(27, 246, 27);
+  }
+
+  .footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 53px;
+    padding: 22px;
+    box-shadow: 0px 2px 6px 4px rgb(36, 36, 36);
+  }
+  .footer .footerText{
+    margin-inline: 73px;
+    margin-top: 33px;
+  }
+  .footerText p{
+margin-top: 11px;
+color: silver;
+  }
