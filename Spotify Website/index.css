@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(46, 46, 46);
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 18px;
+}
+nav img{
+    width: 4%;
+    height: 3%;
+    margin-left: 22px;
+    margin-top: -5px;
+}
+nav ul{
+    display: flex;
+    
+}
+ ul li{
+    list-style: none;
+    margin-inline: 32px;
+    margin-top: 8px;
+    font-size: 18px;
+}
+nav button{
+    margin-right: 33px;
+    width: 90px;
+    height: 31px;
+    background-color: rgb(60, 216, 60);
+    color: white;
+    border-radius: 31px;
+    font-size: 18px;
+    border: none;
+    margin-top: 4px;
+}
+.card{
+    margin-left: 34%;
+    background-color: black;
+    color: white;
+    padding: 11px;
+    width: 400px;
+    border-radius: 4px;
+    margin-top: 11px;
+}
+.card:hover{
+    background-color: rgb(97, 97, 97);
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+.card img{
+    width: 12%;
+    border-radius: 4px;
+}
+.card .items{
+    display: flex;
+    justify-content: space-between;
+}
+.card .items p{
+   
+    margin-top: 15px;
+    
+}
+ .items .duration{
+    margin-top: 10px;
+    padding: 4px;
+    
+ }
+ .items i{
+    font-size: 20px;
+ }
+  
+ 
+.container .text{
+  text-align: center;
+  color: white;
+  padding: 12px;
+}
+ 
+.seek{
+     text-align: center;
+    background-color: black;
+    color: white;
+    padding: 17px;
+    margin-top:11px;
+    
+}
+.seek input{
+    width: 420px;
+     cursor: pointer;
+     
+}
+ 
+.seek p{
+    margin-inline: 22px;
+}
+.bottom img{
+    width: 6%;
+    height: 3%;
+    opacity: 0;
+    transition: 1s ease;
+}
+.bottom{
+    display: flex;
+     margin-left: 36%;
+      font-size: 18px;
+      margin-top: 4px;
+}
+.bottom p{
+    margin-top: 5px;
+}
+.bottom i{
+    font-size: 33px;
+    cursor: pointer;
+}

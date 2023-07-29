@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav>
+        <img src="logos.png" alt=""> 
+        <ul>
+            
+            <li>Home</li>
+            <li>Spotify Song's</li>
+            <button>Sign In</button>
+
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="text">
+            <h2>Music For Everyone</h2>
+        </div>
+        <div class="card">
+            <div class="items">
+                <img src="arman.jpg" alt="">
+                <p id="songName">Dil Me Ho Tum</p>
+                <div class="duration">4:03 <i   id="0" id="upperBtn" class="fa-solid audio fa-circle-play"></i></div>
+                  
+            </div>
+        </div>
+        <div class="card">
+            <div class="items">
+                <img src="khwahish.jpg" alt="">
+                <p id="songName">Khwahish (Munawar)</p>
+                <span class="duration">4:03 <i  id="1" class="fa-solid audio fa-circle-play"></i></span>
+                 
+            </div>
+        </div>
+        <div class="card">
+            <div class="items">
+                <img src="banner.jpg" alt="">
+                <p id="songName">Julius</p>
+                <div class="duration">4:03 <i  id="2" class="fa-solid audio fa-circle-play"></i></div>
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="items">
+                <img src="banner.jpg" alt="">
+                <p id="songName">Give Way</p>
+                <div class="duration">4:03 <i  id="3" class="fa-solid audio fa-circle-play"></i></div>
+                 
+            </div>
+        </div>
+        <div class="card">
+            <div class="items">
+                <img src="guru.jpg" alt="">
+                <p id="songName">Lahore (Guru R)</p>
+                <div class="duration">4:03 <i  id="4" class="fa-solid audio fa-circle-play"></i></div>
+                 
+                 
+            </div>
+        </div>
+    </div>
+ 
+    <div class="seek">
+        <input id="range" type="range" value="0" min="0" max="100">
+      <div class="bottom">
+        <img id="gif" src="player.gif" alt="">
+        <p id="name">Lahore (Guru Randhawa)</p>
+        <i id="playBtn"    class="fa-solid fa-circle-play"></i>
+      </div>
+         
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
