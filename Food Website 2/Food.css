@@ -1,0 +1,243 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    color: white;
+    
+ } 
+ nav{
+   display: flex;
+   justify-content: space-between;
+   background-color: black;
+   color: white;
+   padding: 10px;
+   box-shadow: 0px 4px 7px 4px rgb(24, 24, 24);
+   position: fixed;
+   width: 100%;
+   top: 0%;
+
+ } 
+ nav ul a{
+
+   text-decoration: none;
+   color: white;
+   margin-inline: 30px;
+ }
+  nav button{
+   width: 80px;
+   height: 28px;
+   background-color: rgb(240, 4, 4);
+   color: white;
+   font-size: 18px;
+   border-radius: 2px;
+   border: none;
+  }
+  nav button:hover{
+   border: 2px solid red;
+   background-color: transparent;
+  }
+  nav ul{
+   margin-right: 33px;
+  
+  }
+  .logo{
+    
+   margin-left: 22px;
+  }
+  .logo h1{
+   position: absolute;
+   top: -8px;
+   font-size: 33px;
+   font-family: 'Courgette', cursive;
+   color: red;
+   border-radius: 3px;
+   border-bottom: 4px solid red;
+   border-bottom-right-radius: 22px;
+    
+  }
+  .main{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 175px;
+  }
+  .main .mainText h1{
+font-size: 47px;
+  }
+
+  .mainText h2{
+   font-size: 33px;
+   color: rgb(60, 121, 252);
+     }
+     .mainText p{
+      color: silver;
+        }
+   .mainText button{
+      width: 140px;
+      height: 40px;
+      background-color: red;
+      color: white;
+      border-radius: 2px;
+      border: none;
+      font-size: 22px;
+   }   
+   .mainText button:hover{
+      border: 3px solid red;
+      background-color: transparent;
+      cursor: pointer;
+   }
+.main img{
+   width: 38%;
+}
+
+.head{
+   text-align: center;
+   margin-top: 25px;
+   padding: 75px;
+}
+.head span{
+   color: rgb(53, 151, 249);
+}
+.card{
+   display: flex;
+   justify-content: center;
+   margin-top: 44px;
+    
+}
+.card .crd{
+   width: 300px;
+   margin-inline: 22px;
+   background-color: #fff;
+   color: black;
+}
+.foodText button{
+   width: 100px;
+   height: 30px;
+   background-color: red;
+   color: white;
+   border-radius: 2px;
+   border: none;
+   font-size: 18px;
+   cursor: pointer;
+}
+.crd .foodText{
+   padding: 22px;
+}
+.crd:hover{
+   background-color: rgb(101, 101, 101);
+   color: white;
+}
+
+.crd img{
+   width: 100%;
+}
+.best{
+   display: flex;
+   width: 800px;
+   background-color: #fff;
+   color: black;
+   margin-top: 33px;
+   margin-left: 20%;
+}
+.best img{
+   width: 48%;
+}
+.best .bestText{
+   padding: 22px;
+}
+.bestText{
+   text-align: center;
+}
+.bestText a{
+   width: 130px;
+   padding: 8px;
+   background-color: red;
+   color: white;
+   text-decoration: none;
+   border-radius: 2px;
+   border: none;
+   font-size: 18px;
+}
+.bestText img{
+   border-radius: 50%;
+}
+
+.order{
+   display: flex;
+   justify-content: center;
+
+}
+.orderText i{
+   font-size: 187px;
+   color: red;
+
+}
+.orderText i:hover{
+   color: rgb(53, 158, 249);
+}
+.orderText button{
+   width: 130px;
+   height: 36px;
+   background-color: red;
+   color: white;
+   border-radius: 2px;
+   border: none;
+   font-size: 18px;
+}
+.orderText{
+   margin-inline: 100px;
+}
+
+.footer{
+   display: flex;
+   justify-content: space-around;
+   background-color: rgb(232, 230, 230);
+   color: black;
+   padding: 55px;
+   margin-top: 84px;
+}
+
+/* login */
+.loginPage{
+   display: none;
+   width: 190px;
+   padding: 22px;
+   background-color: #fff;
+   position: absolute;
+   margin-left: 81%;
+   top: 16%;
+   text-align: center;
+   
+}
+.loginPage input{
+   width: 170px;
+   padding: 4px;
+   border: 2px solid rgb(52, 141, 249);
+   outline: none;
+   margin-top: 11px;
+
+}
+.loginPage button{
+   width: 100px;
+   height: 30px;
+   background-color: rgb(54, 136, 250);
+   color: white;
+   font-size:20px;
+   border: none;
+   cursor: pointer;
+   margin-top: 13px;
+}
+
+/* tracking */
+
+.tracking{
+   
+   display: flex;
+   justify-content: space-around;
+   margin-top: 175px;
+   display: none;
+}
+.tracking img{
+   width: 50%;
+}

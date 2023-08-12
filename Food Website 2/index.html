@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Dancing+Script:wght@700&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Zomato</h1>
+            </div>
+
+            <ul>
+                <a href="">Home</a>
+                <a id="foods" href="#food">Food</a>
+                <a id="dishes" href="#dishe">Best Dishes</a>
+                <a id="orders" href="#order">Track Order</a>
+                <button id="log">Log In</button>
+            </ul>
+        </nav>
+
+        <!-- log in  -->
+        <div id="logPage">
+            <input type="email"  placeholder="Enter Email Address" id="name"  autocomplete="off">
+            <input type="password" autocomplete="off" placeholder="Enter Password" id="pass"> <br>
+            <button id="logedBtn">Log In</button>
+        </div>
+
+        <div class="main">
+            <div class="text">
+                <h1>Healthy Food For Wealthy <br>Mood</h1>
+                <h1 class="off">Upto 20% OFF</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore placeat <br> expedita voluptatibus
+                   nam consequuntur provident corporis.</p>
+                <button>Order Now</button>
+            </div>
+            <img src="mainimg.jpg" alt="">
+        </div>
+
+        <!-- cards -->
+        <div class="food" id="food">
+            <div class="head">
+                <h1>Our <span>Food's</span></h1>
+            </div>
+            <div class="crd">
+                <div class="card">
+                    <img src="img1.jpg" alt="">
+                    <div class="cardText">
+                        <h2>Butter Paneer</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img2.jpg" alt="">
+                    <div class="cardText">
+                        <h2>Butter Paneer</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img3.jpg" alt="">
+                    <div class="cardText">
+                        <h2>Butter Paneer</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="food" id="food2">
+
+            <div class="crd">
+                <div class="card">
+                    <img src="img4.jpg" alt="">
+                    <div class="cardText">
+                        <h2>Samosa</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img5.jpg" alt="">
+                    <div class="cardText">
+                        <h2>Burger</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img6.jpg" alt="">
+                    <div class="cardText">
+                        <h2>Finger Chips</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- best dishes -->
+
+        <div class="dishes" id="dishe">
+            <div class="head">
+                <h1>Best <span>Dishes</span></h1>
+            </div>
+            <div class="best">
+                <div class="bestCard">
+                    <img src="food.jpg" alt="">
+                    <div class="bestText">
+                        <h2>Best Dishes Ever</h2>
+                        <img src="r2.jpg" alt="">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, obcaecati laborum.</p>
+                        <a href="https://www.tasteatlas.com/100-most-popular-foods-in-the-world">Explore Foods</a>
+                    </div>
+                </div>
+                <div class="bestCard">
+                    <img src="img2.jpg" alt="">
+                    <div class="bestText">
+                        <h2>Best Dishes Ever</h2>
+                        <img src="r3.jpg" alt="">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, obcaecati laborum.</p>
+                        <a href="https://www.tasteatlas.com/100-most-popular-foods-in-the-world">Explore Foods</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- track Order -->
+
+        <div class="order" id="order">
+            <div class="head">
+                <h1>Track Your <span>Order</span></h1>
+            </div>
+            <div class="track">
+                <div class="trackText">
+                    <i class="fa-solid fa-bicycle"></i> <br>
+                    <h2>Track Your Order Here</h2>
+                    <button id="track">Track</button>
+                </div>
+                <img src="map.webp" alt="">
+            </div>
+        </div>
+
+        <!-- tracking -->
+        <div class="imgs">
+            <div class="imgText">
+                <h1>Live Order Tracking</h1> <br>
+                <h2>Fast Delivery</h2> <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Aperiam, in? Rerum culpa cumque
+                    repellendus <br> ullam officia aspernatur provident eos labore <br> similique quaerat.</p>
+            </div>
+            <img src="tracking.png" alt="">
+        </div>
+
+        <!-- footer -->
+
+        <div class="footer">
+            <div class="footerText">
+                <h2>About Us</h2><br>
+                <a>Lorem ipsum dolor, sit amet consectetur adipisicing <br> elit. Quos nihil aliquam fuga ex obcaecati
+                    rerum <br> in sunt ducimus dolorum, officiis odit atque!</a>
+
+            </div>
+            <div class="footerText">
+                <h2>Our Foods</h2><br>
+                <a>Quality</a><br>
+                <a>foods</a><br>
+                <a>price</a><br>
+                <a>quality</a><br>
+                <a>Price</a> <br>
+                <a>Best food</a>
+
+            </div>
+            <div class="footerText">
+                <h2>Customer</h2><br>
+                <a>Service</a><br>
+                <a>Relation</a><br>
+                <a>quality</a><br>
+                <a>Price</a>
+
+            </div>
+            <div class="footerText">
+                <h2>Contact Us</h2><br>
+                <a>A-33 Block</a><br>
+                <a>Kudlu Gate</a><br>
+                <a>Service Road</a><br>
+                <a>0022-4222</a>
+
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

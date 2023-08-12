@@ -1,0 +1,206 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Food.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Dancing+Script:wght@700&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"  rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+     <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Zomato</h1>
+            </div>
+            <ul>
+                <a  href="">Home</a>
+                <a id="foods" href="#food">Foods</a>
+                <a id="dishs" href="#dish">Best Dishes</a>
+                <a id="orders" href="#order">Track Order</a>
+                <button id="logBtn">Log In</button>
+
+            </ul>
+        </nav>
+
+        <!-- login -->
+        <div class="loginPage">
+            <input type="text" placeholder="Enter Email" id="name">
+            <input type="password" placeholder="Enter password" id="pass">
+            <button id="logedBtn">Log In</button>
+
+        </div>
+
+        <!-- main -->
+        <div class="main">
+            <div class="mainText">
+                <h1>Healthy Food For Wealthy <br> Mood</h1>
+                <h2>Upto 20% OFF</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore placeat <br>
+                    expedita voluptatibus nam consequuntur provident corporis.</p>
+                <button>Order Now</button>
+            </div>
+            <img src="mainimg.jpg" alt="">
+        </div>
+
+        <!-- cards -->
+
+        <div class="foodcard" id="food">
+          <div class="head">
+            <h1>Our <span>Foods</span></h1>
+          </div>
+            <div class="card">
+                <div class="crd">
+                    <img src="img1.jpg" alt="">
+                    <div class="foodText">
+                        <h2>Butter Peneer</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+                <div class="crd">
+                    <img src="img2.jpg" alt="">
+                    <div class="foodText">
+                        <h2>Butter Peneer</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+                <div class="crd">
+                    <img src="img3.jpg" alt="">
+                    <div class="foodText">
+                        <h2>Butter Peneer</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="card2">
+            <div class="crd">
+                <img src="img4.jpg" alt="">
+                <div class="foodText">
+                    <h2>Butter Peneer</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="crd">
+                <img src="img5.jpg" alt="">
+                <div class="foodText">
+                    <h2>Butter Peneer</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="crd">
+                <img src="img6.jpg" alt="">
+                <div class="foodText">
+                    <h2>Butter Peneer</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- best dish -->
+
+    <div class="dish" id="dish">
+        <div class="head">
+            <h1>Our Best <span>Dishe's</span></h1>
+        </div>
+        <div class="best">
+            <img src="mainimg.jpg" alt="">
+            <div class="bestText">
+                <h2>Best Dishes Ever</h2>
+                <img src="r2.jpg" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, obcaecati laborum.</p>
+                <a href="https://www.chefspencil.com/best-30-food-blogs-in-2020/">Explore Foods</a>
+            </div>
+        </div>
+
+        <div class="best">
+            <img src="img3.jpg" alt="">
+            <div class="bestText">
+                <h2>Best Dishes Ever</h2>
+                <img src="r3.jpg" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, obcaecati laborum.</p>
+                <a href="https://www.chefspencil.com/best-30-food-blogs-in-2020/">Explore Foods</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- order track -->
+
+    <div class="track" id="order">
+        <div class="head">
+            <h1>Track <span>Order</span></h1>
+        </div>
+
+        <div class="order">
+            <div class="orderText">
+                <i class="fa-solid fa-person-biking"></i>
+                <h2>Track Order Here</h2>
+                <button id="trackBtn">Track Now</button>
+            </div>
+            <img src="map.webp" alt="">
+        </div>
+    </div>
+
+    <!-- tracking -->
+
+    <div class="tracking">
+        <div class="trackText">
+            <h1>Live Order Tracking</h1>
+            <h2>Fast Delivery</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
+                 Corporis quibusdam possimus, labore incidunt temporibus, <br>
+                  eius totam libero, sint quas corrupti soluta! Veniam <br>
+                   asperiores ex consequatur sequi repellat voluptatibus facere unde?</p>
+        </div>
+        <img src="tracking.png" alt="">
+    </div>
+    <!-- footer -->
+
+    <div class="footer">
+        <div class="text">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing <br>
+                elit. Quos nihil aliquam fuga ex obcaecati rerum <br>
+                in sunt ducimus dolorum, officiis odit atque!</p>
+        </div>
+        <div class="text">
+            <h2>Our Foods</h2>
+            <p>Quality</p>
+            <p>price</p>
+            <p>service</p>
+            <p>Quality</p>
+
+        </div>
+        <div class="text">
+            <h2>Customer</h2>
+            <p>Service</p>
+            <p>Relation</p>
+            <p>quality</p>
+            <p>price</p>
+            <p>more</p>
+
+        </div>
+        <div class="text">
+            <h2>Contact Us</h2>
+            <p>A-33 Block</p>
+            <p>Kudlu Gate</p>
+            <p>service Road</p>
+            <p>0222-04444</p>
+           
+
+        </div>
+    </div>
+     </div>
+    <script src="Food.js"></script>
+ </body>
+ </html>
