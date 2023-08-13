@@ -1,0 +1,321 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(236, 236, 236);
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+.logo{
+    margin-left: 9px;
+    font-size: 19px;
+}
+nav{
+     position: fixed;
+     margin-top: -91px;
+     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 4px 0px rgb(167, 167, 167);
+}
+ul {
+    display: flex;
+    margin-right: 11px;
+}
+nav ul #homes{
+    color: rgb(218, 9, 9);
+}
+nav button{
+    width: 80px;
+    height: 30px; 
+    background-color: rgb(202, 15, 15);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 32px;
+
+}
+nav button:hover{
+    
+    background-color: transparent;
+    border: 2px solid rgb(235, 4, 4);
+    color: black;
+    transition: 0.3s ease;
+    
+    
+}
+#log{
+    position: absolute;
+    margin-left: 78%;
+    margin-top: -1%;
+    display: none;
+    width: 230px;
+    text-align: center;
+    background-color: #fff;
+    padding: 22px;
+
+}
+#log input{
+    width: 200px;
+    outline: none;
+    background-color: transparent;
+    margin-top: 11px;
+    padding: 5px;
+    border: 2px solid black;
+}
+#log button{
+    width: 100px;
+    height: 30px;
+    background-color:rgb(206, 2, 2);
+    color: white;
+    font-size: 18px;
+    border: none;
+    margin-top: 11px;
+}
+ul a{
+    text-decoration: none;
+    margin-inline: 29px;
+    margin-top: 7px;
+    cursor: pointer;
+    color: black;
+}
+ul a:hover{
+    border-bottom:2px solid rgb(206, 5, 5) ;
+    color: rgb(226, 38, 38);
+    font-weight: 600;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 92px;
+     
+    
+}
+.main img{
+    margin-right: -111px;
+    
+}
+
+.main .text{
+    margin-top: 84px;
+    
+}
+.text h1{
+    font-size:58px;
+}
+.text h3{
+    margin-top: 11px;
+    font-size: 36px;
+    color: rgb(3, 148, 148);
+}
+.main .text p{
+    margin-top: 21px;
+    color: rgb(58, 57, 57);
+}
+.text button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(196, 13, 13);
+    color: white;
+    font-size: 22px;
+    border-radius: 2px;
+    margin-top: 26px;
+    border: none;
+}
+.text button:hover{
+    background-color: transparent;
+    border: 3px solid red;
+    color: black;
+    cursor: pointer;
+    transition: 0.7s ease;
+    font-size: 26px;
+}
+.shop{
+    display: flex;
+    justify-content: center;
+}
+
+.shop .card{
+    width: 260px;
+    height: 460px;
+    background-color: #fff;
+    padding: 16px;
+    margin-inline: 22px;
+    
+}
+.shop .card:hover{
+    transition: 0.6s ease;
+    width: 280px;
+    height: 480px;
+    background-color: rgb(133, 132, 132);
+}
+.shop .card img{
+    width:100%;
+    height: 79%;
+    border-radius: 5px;
+    
+}
+
+.cardText i{
+    color: rgb(255, 176, 4);
+}
+.cardText{
+    font-size: 19px;
+    margin-top:  11px;
+    
+}
+.cardText button{
+    width: 80px;
+    height: 28px;
+    background-color: rgb(219, 5, 5);
+    color: white;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    border-radius: 13px;
+    margin-left: 73px;
+    position: absolute;
+}
+.cardText h3{
+    margin-top: 9px;
+}
+.cardText i{
+    margin-top: 9px;
+}
+.head{
+    text-align: center;
+    /* margin-top: 93px; */
+    padding: 92px;
+}
+.head span{
+    color: rgb(3, 165, 165);
+}
+
+.trending{
+    display: flex;
+    justify-content: center;
+}
+.trendCard{
+    display: flex;
+    width: 500px;
+    height: 300px;
+    margin-inline: 22px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.trendCard img{
+    padding: 11px;
+    width: 88%;
+    border-radius:15px;
+}
+.trendCard:hover{
+    width: 510px;
+    height: 310px;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+.trendText{
+    margin-top: 53px;
+    padding: 22px;
+}
+.trendText p{
+    margin-top: 11px;
+}
+.trendText a{
+  position: relative;
+  top: 22px;
+    width: 100px;
+    padding: 4px;
+    background-color: rgb(207, 6, 6);
+    color: white;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+ 
+}
+.trendText a:hover{
+    background-color: #fff;
+    border: 2px solid rgb(226, 7, 7);
+    color: black;
+    cursor: pointer;
+}
+
+.read{
+    display: flex;
+    justify-content: center;
+}
+.readBlog{
+    width: 300px;
+    height: 360px;
+    background-color: #fff;
+    text-align: center;
+    margin-inline: 22px;
+}
+.readBlog img{
+    width: 55%;
+    border-radius: 50%;
+    padding: 22px;
+}
+.readBlog p{
+    padding: 19px;
+}
+.readBlog i{
+    color: orangered;
+    font-size: 22px;
+}
+.contactUs{
+    text-align: center;
+    border: 3px solid rgb(0, 105, 105);
+    width: 600px;
+    padding: 33px;
+    margin-left: 23%;
+}
+.contactUs input{
+    width: 400px;
+    height: 12px;
+    outline: none;
+    padding: 11px;
+    margin-top: 22px;
+    border: 2px solid rgb(3, 109, 109);
+    font-size: 18px;
+}
+.contactUs button{
+    margin-top: 22px;
+    width: 120px;
+    height: 38px;
+    background-color:rgb(3, 134, 134);
+    color: white;
+    font-size: 22px;
+    border: none;
+    outline: none;
+}
+.contactUs button:hover{
+    border: 2px solid rgb(3, 161, 161);
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(1, 85, 85);
+    padding: 63px;
+   margin-top: 33px;
+     
+}
+.footer .text{
+    color: white;
+}
+.text p{
+    color: #fff;
+    margin-top: 7px;
+}

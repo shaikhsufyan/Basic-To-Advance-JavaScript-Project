@@ -1,0 +1,244 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(231, 229, 229);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 4px 4px 0px rgb(155, 154, 154);
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+nav ul a{
+    text-decoration: none;
+    margin-inline: 25px;
+    font-size: 18px;
+    color: black;
+
+}
+nav ul a:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+nav button{
+    width: 80px;
+    height: 28px;
+    background-color:rgb(231, 5, 5) ;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+nav button:hover{
+    border: 2px solid red;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+nav ul{
+    margin-right: 26px;
+    margin-top: 22px;
+}
+nav .logo{
+    margin-left: 23px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 115px;
+}
+.mainText{
+    margin-top: 33px;
+}
+.mainText h1{
+    font-size: 58px;
+}
+.mainText h2{
+    font-size: 44px;
+    color: rgb(8, 165, 165);
+}
+.main img{
+    margin-right: -115px;
+}
+.mainText button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(229, 4, 4);
+    color: white;
+    font-size: 24px;
+    border: none;
+
+}
+.mainText button:hover{
+    border: 3px solid red;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+
+.head{
+    text-align: center;
+    margin-top: 45px;
+    padding: 55px;
+}
+.head span{
+    color: rgb(6, 161, 161);
+}
+.card {
+    display: flex;
+    justify-content: center;
+}
+.card .trend{
+    width: 280px;
+    background-color: #fff;
+    margin-inline: 22px;
+}
+.trend img{
+    width: 100%;
+    height: 64%;
+}
+.trend .cardText{
+    padding: 10px;
+}
+.trend i{
+    color: rgb(255, 149, 0);
+    font-size: 22px;
+}
+.trend button{
+    width: 90px;
+    height: 28px;
+    background: red;
+    font-size: 12px;
+    border-radius: 22px;
+    border: none;
+    color: white;
+    margin-left: 33px;
+}
+.card .trend:hover{
+   background-color: gray;
+   width: 294px;
+   color: white;
+   transition: 0.6s ease;
+}
+
+.blog{
+    display: flex;
+    justify-content: center;
+}
+
+.blogCard{
+    display: flex;
+    background-color: #fff;
+    padding: 12px;
+    margin-inline: 22px;
+    width: 500px;
+}
+.blogCard:hover{
+    width: 520px;
+    transition: 0.7s ease;
+    background-color: silver;
+}
+.blogCard img{
+    width: 44%;
+    border-radius: 11px;
+}
+.blogCard .blogText{
+    text-align: center;
+    padding: 20px;
+}
+.blogText a{
+    width: 90px;
+    padding: 7px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+.customer{
+    display: flex;
+    justify-content: center;
+}
+.customer .review{
+    width: 280px;
+    background-color: #fff;
+    padding: 24px;
+    margin-inline: 23px;
+}
+.review img{
+    width: 44%;
+    border-radius: 50%;
+}
+.review i{
+    color: orange;
+    font-size: 22px;
+}
+
+.contactPage{
+    border: 4px solid rgb(2, 129, 129);
+    text-align: center;
+    padding: 44px;
+    width: 500px;
+    margin-left: 26%;
+}
+.contactPage input{
+    width: 400px;
+    padding: 9px;
+    font-size: 18px;
+    outline: none;
+    margin-top: 11px;
+}
+.contactPage button{
+    width: 140px;
+    height: 37px;
+    background-color: rgb(7, 134, 134);
+    color: white;
+    font-size: 22px;
+    border: none;
+    margin-top: 22px;
+}
+.contactPage button:hover{
+    border: 3px solid rgb(4, 127, 127);
+    background-color: transparent;
+    color: black;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    color: black;
+    padding: 55px;
+    margin-top: 55px;
+}
+
+/* login */
+.loginPage{
+    display: none;
+    width: 190px;
+    padding: 22px;
+    background-color: #fff;
+    text-align: center;
+    position: absolute;
+    margin-left: 81%;
+    top: 13%;
+
+}
+.loginPage input{
+    width: 166px;
+    padding: 4px;
+    border: 2px solid rgb(7, 150, 150);
+    margin-top: 11px;
+}
+.loginPage button{
+    margin-top: 13px;
+    width: 80px;
+    height: 28px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(215, 7, 7);
+}
