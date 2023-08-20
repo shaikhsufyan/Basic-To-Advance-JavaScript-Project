@@ -1,0 +1,223 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(1, 1, 17);
+    color: white;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(1, 1, 17);
+    box-shadow: 0px 2px 6px 2px rgb(29, 27, 27);
+    padding: 20px;
+
+
+}
+nav ul{
+    margin-right: 42px;
+    margin-top: 6px;
+}
+.logo{
+    margin-left: 13px;
+    font-size: 22px;
+}
+nav ul a{
+    margin-inline: 20px;
+    color: white;
+    text-decoration: none;
+}
+ul a:hover{
+    color: rgb(2, 253, 2);
+    border-bottom: 2px solid rgb(2, 253, 2);
+}
+nav button{
+    width: 70px;
+    height: 28px;
+    background-color: rgb(4, 181, 4);
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+nav button:hover{
+    border: 2px solid rgb(2, 253, 2);
+    background-color: transparent;
+    color: white;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 174px;
+}
+.main h1{
+    color: rgb(2, 253, 2) ;
+    font-size: 77px;
+
+}
+.main h2{
+    font-size: 33px;
+    margin-top: 22px;
+}
+.main p{
+    color: silver;
+    margin-top: 22px;
+
+}
+.main button{
+    width: 140px;
+    height: 40px;
+    margin-top: 22px;
+    background-color:rgb(2, 253, 2);
+    color: white;
+    border: none;
+    font-size: 22px;
+}
+.main img{
+    margin-inline: -86px;
+}
+
+.head{
+    text-align: center;
+    padding: 88px;
+    margin-top: 25px;
+}
+.head span{
+    color: red;
+}
+.train{
+    display: flex;
+    justify-content: center;
+}
+ .train .card{
+    width: 330px;
+    height: 370px;
+    background-color: rgb(99, 99, 99);
+    margin-inline: 12px;
+}
+.trainText{
+    padding: 22px;
+}
+.card a{
+    width: 80px;
+    padding: 6px;
+    background-color: red;
+    color: white;
+    position: relative;
+    top: 18px;
+    text-decoration: none;
+}
+.card img{
+    width: 100%;
+}
+
+.img {
+    width: 900px;
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+}
+.img img{
+    transition: 0.6s ease;
+    width: 29%;
+    margin-inline: 18px;
+    border-radius: 9px;
+}
+.btn{
+    text-align: center;
+     padding: 55px;
+}
+ .btn button{
+    width: 90px;
+    height: 28px;
+    background-color: rgb(6, 225, 6);
+    color: white;
+    font-size: 19px;
+    border: none;
+    margin-inline: 22px;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: rgb(1, 103, 1);
+}
+
+.program{
+    display: flex;
+    justify-content: center;
+}
+.program .proCard{
+    width: 330px;
+    height: 400px;
+    margin-inline: 11px;
+    text-align: center;
+}
+.proCard:hover{
+    height: 426px;
+    transition: 0.7s ease;
+}
+.program img{
+    width: 90%;
+    height: 100%;
+}
+
+.connect{
+    text-align: center;
+}
+.connect input{
+    width: 400px;
+    padding: 11px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin-top: 11px;
+}
+.connect button{
+    width: 180px;
+    height: 42px;
+    background-color: rgb(6, 220, 6);
+    color: white;
+    font-size: 27px;
+    border: none;
+    margin-top: 22px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(245, 243, 243);
+    color: black;
+    padding: 55px;
+    margin-top: 55px;
+}
+
+/* join */
+.join{
+    display: none;
+    position: absolute;
+    margin-left: 82%;
+    top: 14%;
+    background-color: #fff;
+    text-align: center;
+    width: 180px;
+    padding: 22px;
+}
+.join input{
+    width: 165px;
+    padding: 4px;
+    outline: none;
+    margin-top: 11px;
+}
+.join button{
+    width: 90px;
+    height: 30px;
+    background-color: rgb(23, 79, 249);
+    color: white;
+    font-size: 18px;
+    border: none;
+    margin-top: 20px;
+}
