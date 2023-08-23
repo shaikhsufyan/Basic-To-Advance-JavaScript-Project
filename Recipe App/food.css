@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(128, 57, 7);
+
+} 
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(1, 1, 19);
+    color: white;
+    padding: 22px;
+}
+.logo h1{
+    font-size: 28px;
+}
+.searchBar{
+    display: flex;
+}
+.searchBar input{
+    width: 290px;
+    padding: 7px;
+    border: none;
+    font-size: 18px;
+    border-radius: 3px;
+    margin-inline: 5px;
+}
+.searchBar button{
+    width: 70px;
+    height: 34px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.searchBar button:hover{
+    background-color: rgb(230, 64, 4);
+}
+#heading{
+    text-align: center;
+    padding: 23px;
+    color: white;
+}
+
+
+/* Responsive */
+@media only screen and (max-width:600px){
+     nav{
+        display: block;
+        justify-content: center;
+        text-align: center;
+     }
+     .searchBar{
+        display: flex;
+        justify-content: center;
+     }
+     .logo h1{
+        margin-bottom: 11px;
+     }
+}
+
+.food-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    margin: 10px auto;
+
+}
+.food-card{
+    display: flex;
+    flex-direction: column;
+    margin-inline: 20px;
+    background-color: #fff;
+    margin-top: 30px;
+    border-radius: 5px;
+    
+}
+.food-card img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.food-card h3{
+    margin-top: 5px;
+}
+.food-card p{
+    margin-top: 5px;
+}
+.food-card button{
+    width: 90px;
+    height: 28px;
+    background-color: orangered;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 5px;
+}
+.content{
+    display: none;
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    overflow-y: hidden;
+    transform: translate(-50%, 40%);
+    background-color: #fff;
+    color: black;
+    width: 33%;
+    height: 40%;
+    padding: 22px;
+    overflow-y: scroll;
+} 
+.content ::-webkit-scrollbar{
+    width: 11px;
+}
+.content ::-webkit-scrollbar-thumb{
+     color: gray;
+}
+.content ::-webkit-scrollbar-track{
+    background-color: rgb(208, 207, 207);
+}
+
+.content button{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 30px;
+    cursor: pointer;
+    height: 30px;
+    border: none;
+    background-color: rgb(234, 232, 232);
+}
+.contentText h2{
+    text-align: center;
+    padding: 11px;
+}
+.contentText ul{
+    margin-left: 17px;
+}
+.content button i{
+    font-size: 20px;
+}
+.contentText h3{
+  margin-top: 10px;
+  margin-bottom: 11px;
+}
