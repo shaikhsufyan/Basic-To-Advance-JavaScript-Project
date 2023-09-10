@@ -1,0 +1,52 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+ 
+/* @media only screen and (max-width:600px){
+    body{
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width:600px){
+    body{
+        background-color: green;
+    }
+}
+
+@media only screen and (orientation:portrait){
+    body{
+        background-color: black;
+    }
+}
+
+@media only screen and (width<=800px){
+    body{
+        background-color: orangered;
+    }
+} */
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 66px;
+}
+.text{
+    margin-top: 25px;
+    padding: 24px;
+    font-size: 19px;
+}
+
+@media only screen and (max-width:800px){
+    .container{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:440px){
+    .container img{
+        width: 95%;
+    }
+}
