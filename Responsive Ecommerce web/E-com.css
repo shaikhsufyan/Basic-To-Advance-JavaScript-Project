@@ -1,0 +1,330 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(212, 211, 211);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(1, 1, 21);
+    color: white;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+.logo{
+    margin-left: 13px;
+    font-size: 19px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-right: 13px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    margin-inline: 20px;
+    font-size: 20px;
+    color: white;
+}
+ul li a:hover, ul li a.active{
+    color: rgb(4, 219, 219);
+    font-weight: 600;
+}
+.icon{
+    display: none;
+    align-items: center;
+    font-size: 30px;
+    margin-right: 12px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 155px;
+
+}
+.mainText h1{
+    font-size: 55px;
+    color: rgb(3, 168, 168);
+}
+.mainText h2{
+    font-size: 33px;
+}
+.mainText button{
+    width: 120px;
+    height: 34px;
+    background-color: rgb(3, 123, 123);
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+.mainText button:hover{
+    border: 2px solid rgb(3, 163, 163);
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.cards .crd{
+    margin-inline: 22px;
+    text-align: center;
+}
+.crd i{
+    color: rgb(248, 118, 3);
+     position: relative;
+     top: -11px;
+}
+.crd h3{
+    margin-top: 3px;
+}
+.crd img{
+    width: 300px;
+    height: 340px;
+}
+
+.head{
+    padding: 65px;
+    text-align: center;
+}
+.head span{
+    color: orangered;
+}
+.reviews{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.reviews .rCard{
+    width: 260px;
+    height: 240px;
+    background-color: #fff;
+    text-align: center;
+    padding: 16px;
+    margin-inline: 20px;
+
+}
+.rCard:hover{
+    background-color: rgb(155, 154, 154);
+    transition: 1s ease;
+    cursor: pointer;
+}
+.rCard img{
+    width: 42%;
+    border-radius: 50%;
+}
+.rCard button{
+    width: 90px;
+    height: 30px;
+    background-color: rgb(3, 165, 165);
+    color: white;
+    border: none;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.blog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.blog .blogCard{
+    width: 300px;
+    text-align: center;
+    background-color: #fff;
+    margin-inline: 22px;
+    padding: 16px;
+    border-radius: 5px;
+    
+}
+.blogCard img{
+    width: 100%;
+    border-radius: 5px;
+}
+.blogCard a{
+    padding: 4px 20px;
+    background-color: rgb(3, 151, 151);
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.blogCard:hover{
+    transition: 1s ease;
+    background-color: gray;
+    cursor: pointer;
+}
+.connect{
+    text-align: center;
+}
+.connect input{
+    width: 380px;
+    padding: 8px;
+    font-size: 18px;
+    background-color: transparent;
+    margin-top: 11px;
+    border: 2px solid black;
+
+}
+.connect button{
+    width: 130px;
+    height: 36px;
+    background-color: rgb(1, 143, 143);
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    padding: 44px;
+    margin-top: 33px;
+    color: white;
+}
+
+/* item Page css */
+
+.itemPage{
+     
+    display: none;
+    margin-top: 33px;
+    margin-left: 25px;
+}
+.itemPage img{
+    width: 400px;
+}
+.itemPage .itemText{
+    margin-inline: 24px;
+}
+.itemText h2{
+    color: rgb(1, 167, 1);
+}
+.itemPage input{
+    width: 30px;
+    padding: 4px;
+    font-size: 20px;
+}
+.itemText a{
+    padding: 4px 20px ;
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* buyPage */
+
+.buyPage{
+    display: none;
+    width: 40%;
+    background-color: #fff;
+    padding: 22px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 40%);
+    top: -15%;
+    border-radius: 4px;
+
+}
+ 
+.buyText input{
+    width: 95%;
+    padding: 7px;
+    border: 2px solid black;
+    margin-top: 8px;
+    font-size: 18px;
+    
+}
+.buyPage .cross{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: rgb(171, 170, 170);
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.buyText button{
+    width: 120px;
+    height: 34px;
+    background-color: rgb(1, 125, 125);
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 22px;
+}
+.buyText select{
+    padding: 4px;
+    font-size: 18px;
+}
+
+
+
+@media only screen and (max-width:600px){
+    nav ul{
+        display: none;
+    }
+    .icon{
+        display: flex;
+        cursor: pointer;
+    }
+    .showData{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 58px;
+        background-color: rgb(120, 120, 120);
+        width: 100%;
+        height: 240px;
+        gap: 20px;
+        padding: 0%;
+        text-align: center;
+
+    }
+    .mainText h1{
+        font-size: 40px;
+    }
+    .mainText h2{
+        font-size: 24px;
+    }
+    .crd img{
+        width: 71%;
+    }
+    .connect input{
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .main img{
+        width: 95%;
+    }
+}
+ 
+@media only screen and (max-width:1000px){
+    .main{
+        display: block;
+        text-align: center;
+    }
+    .main img{
+        margin-top: 20px;
+    }
+
+}
