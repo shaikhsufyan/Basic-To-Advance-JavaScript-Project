@@ -1,0 +1,495 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(235, 233, 233);
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(1, 1, 20);
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+
+}
+
+.logo {
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-right: 11px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    margin-inline: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+ul li a:hover,
+ul li a.active {
+    border-bottom: 2px solid black;
+    color: rgb(0, 196, 196);
+    font-weight: 600;
+}
+
+.icon {
+    display: none;
+    font-size: 30px;
+    align-items: center;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 154px;
+    flex-wrap: wrap;
+}
+
+.mainText {
+    margin-top: 22px;
+}
+
+.mainText h1 {
+    font-size: 55px;
+    color: rgb(5, 201, 201);
+}
+
+.mainText h2 {
+    font-size: 33px;
+}
+
+.mainText button {
+    width: 120px;
+    height: 34px;
+    background-color: rgb(3, 153, 153);
+    color: white;
+    font-size: 17px;
+    border: none;
+    margin-top: 22px;
+}
+
+.mainText button:hover {
+    border: 2px solid rgb(2, 161, 161);
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 12px;
+}
+
+.cards .crd img {
+    width: 300px;
+    height: 340px;
+    margin-inline: 20px;
+}
+
+.cards .crd img:hover {
+    transition: 0.6s ease;
+    height: 360px;
+    cursor: pointer;
+    color: gray;
+}
+
+.cards .crd h3 {
+    margin-top: 0px;
+}
+
+.cards .crd .rate {
+    margin-top: -10px;
+    color: rgb(255, 166, 1);
+}
+
+.cards .crd h3 {
+    margin-top: 0px;
+}
+
+.cards .crd h3 {
+    margin-top: 5px;
+}
+
+.reviews {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+
+
+}
+
+
+
+.reviews .reviewCard {
+
+    width: 260px;
+    height: 250px;
+    margin-inline: 20px;
+    margin-top: 22px;
+    background-color: #fff;
+    padding: 25px;
+    text-align: center;
+
+}
+
+.reviewCard:hover {
+    background-color: gray;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.reviews .reviewCard img {
+    width: 42%;
+    border-radius: 50%;
+    margin-top: 22px;
+}
+
+.reviewCard button {
+    width: 90px;
+    height: 30px;
+    background-color: rgb(2, 148, 148);
+    border: none;
+    color: white;
+    font-size: 17px;
+}
+
+.blogContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.blogCard {
+    margin-inline: 20px;
+    background-color: #fff;
+    width: 300px;
+    margin-top: 23px;
+    border-radius: 11px;
+    padding: 11px;
+
+}
+.blogCard:hover{
+    transition: 1s ease;
+    background-color: rgb(161, 161, 161);
+}
+.blogCard img {
+    width: 100%;
+    height: 70%;
+}
+
+.blogCard a {
+    padding: 4px 14px;
+    background-color: rgb(3, 148, 148);
+    color: white;
+    text-decoration: none;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact input {
+    width: 330px;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 18px;
+    padding: 6px;
+    margin-top: 11px;
+}
+
+.contact button {
+    width: 120px;
+    height: 32px;
+    background-color: rgb(1, 156, 156);
+    color: white;
+    border: none;
+    margin-top: 13px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 54px;
+    margin-top: 44px;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+
+}
+
+.footer .text {
+    margin-inline: 22px;
+}
+
+.head {
+    text-align: center;
+    padding: 72px;
+}
+
+.head span {
+    color: rgb(252, 69, 3);
+}
+
+@media only screen and (max-width:600px) {
+    nav ul {
+        display: none;
+    }
+
+    ul li a {
+        color: white;
+    }
+
+    .icon {
+        display: flex;
+    }
+
+    .showData {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        top: 55px;
+        width: 100%;
+        height: 240px;
+        gap: 22px;
+        padding: 0px;
+        background-color: #727272;
+
+    }
+
+    .main {
+        display: block;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .main h1 {
+        color: rgb(2, 176, 199);
+        font-size: 40px;
+    }
+
+    .main p {
+        color: rgb(37, 37, 37);
+    }
+
+    .mainText h2 {
+        top: 12px;
+        font-size: 24px;
+    }
+
+    .mainText p {
+        margin-top: -11px;
+        padding: 1px;
+    }
+
+    .main img {
+        margin-top: 22px;
+    }
+
+    .cards {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cards .crd img {
+        width: 60%;
+    }
+
+
+    .reviews {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .reviews .reviewCard {
+        width: 60%;
+        height: 240px;
+        margin: auto;
+        margin-top: 22px;
+        background-color: #fff;
+        padding: 25px;
+
+    }
+
+    /* blog */
+    .blogContainer {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .blogCard {
+        margin: auto;
+        background-color: #fff;
+        width: 60%;
+        margin-top: 23px;
+        border-radius: 11px;
+        padding: 11px;
+
+    }
+
+    .contact input {
+        width: 70%;
+    }
+
+}
+
+@media only screen and (max-width:400px) {
+    .main img {
+        width: 95%;
+
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .mainText {
+        text-align: center;
+    }
+}
+
+
+/* itemPage */
+
+.itemPage {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-left: 25px;
+    margin-top: 48px;
+
+}
+
+.itemPage img {
+    width: 360px;
+}
+
+.itemPage input {
+    width: 30px;
+    height: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.itemText {
+    margin-inline: 22px;
+}
+
+.offer h3 {
+    color: rgb(2, 160, 2);
+}
+
+.itemPage a {
+    padding: 5px 26px;
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    margin: auto;
+    cursor: pointer;
+}
+
+
+
+/* buyPage */
+
+.buyPage {
+    display: none;
+    position: absolute;
+    top: -20%;
+    right: 50%;
+    left: 50%;
+    width: 40%;
+    transform: translate(-50%, 40%);
+
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+
+.buyPage input {
+    width: 95%;
+    padding: 4px;
+    font-size: 17px;
+    border: 1px solid black;
+    margin-top: 11px;
+    outline: none;
+}
+
+.buyPage select {
+    width: 95%;
+    padding: 5px;
+    font-size: 17px;
+}
+
+.buyPage button {
+    width: 120px;
+    height: 35px;
+    border: none;
+    background-color: rgb(1, 104, 104);
+    color: white;
+    font-size: 18px;
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+.buyPage .cross {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    padding: 4px;
+    width: 25px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    background-color: #bebdbd;
+    border-radius: 4px;
+
+}
+
+
+
+@media only screen and (max-width:600px) {
+
+    .itemPage img {
+        width: 70%;
+    }
+
+    /* .buyPage {} */
+}
