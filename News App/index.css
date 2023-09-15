@@ -1,0 +1,137 @@
+*{   
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(219, 218, 218);
+ 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 11px;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: 0%;
+}
+.logo{
+    margin-left: 5px;
+    align-items: center;
+    display: flex;
+}
+.logo h1{
+    font-size:30px;
+}
+ li{
+    list-style: none;
+    margin-inline: 24px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.active{
+    color: rgb(21, 119, 247);
+
+}
+li:hover{
+    color: rgb(21, 119, 247);
+    border-bottom: 2px solid black;
+    
+}
+
+
+.search{
+    display: flex;
+    margin-right: 34px;
+     
+}
+.search input{
+    width: 220px;
+    border: none;
+    padding: 6px;
+    font-size: 17px;
+    border-radius: 3px;
+    margin-inline: 3px;
+}
+.search button{
+    width: 60px;
+    height: 31px;
+    border: none;
+    background-color: rgb(0, 99, 248);
+    color: white;
+    font-size: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    
+}
+
+.dataCard{
+
+    display: grid;
+    width: 80%;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  
+    margin: auto;
+    margin-top: 13px;
+}
+.cards{
+     
+    margin-inline: 8px;
+    padding: 11px;
+    background-color: white;
+    margin-top: 25px;
+    cursor: pointer;
+     
+}
+.cards h3{
+    margin-top:  10px;
+    padding: 3px;
+}
+.cards p{
+    margin-top: 6px;
+    padding: 2px;
+}
+.cards img{
+    width: 100%;
+    height: 45%;
+}
+.category{
+    display: flex;
+    justify-content: center;
+     margin-top: 100px;
+ }
+  
+@media only screen and (max-width:900px){
+    .logo li{
+        display: none;
+    }
+    .category{
+         
+         margin-top: 130px;
+     }
+     
+}
+ 
+
+@media only screen and (max-width:530px){
+    nav{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 100px;
+         
+    }
+    .search{
+        display: flex;
+        text-align: center;
+    }
+    nav .search{
+        margin-top: 8px;
+    }
+ 
+}
