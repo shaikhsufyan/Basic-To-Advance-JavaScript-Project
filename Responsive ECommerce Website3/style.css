@@ -1,0 +1,200 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(10, 10, 10);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    box-shadow: 0px 0px 4px 4px rgb(20, 20, 20);
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+
+}
+.logo h1{
+    font-size: 30px;
+    margin-left: 6px;
+}
+.logo li{
+    list-style: none;
+    margin-inline: 22px;
+    
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+ 
+#item{
+    margin-left: 52px;
+}
+ 
+.items{
+    display: grid;
+    justify-content: center;
+    width: 80%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: auto;
+    margin-top: 155px;
+}
+.items .cards{
+    width: 280px;
+    height: 440px;
+    margin: auto;
+    margin-top: 42px;
+     
+    
+}
+ 
+.cards:hover{
+    background-color: rgb(224, 224, 224);
+    color: black;
+    cursor: pointer;
+}
+.cards p{
+    margin-left: 4px;
+    padding: 3px;
+}
+.cards img{
+    width: 100%;
+    height: 75%;
+     
+}
+
+ 
+.cardDetail{
+    display: none;
+    position: fixed;
+    top: -4%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 40%);
+    margin: auto;
+    background-color: rgb(80, 80, 80);
+    color: white;
+    width: 350px;
+    height: 390px;
+    padding: 32px;
+    overflow-y: hidden;
+    overflow: auto;
+    border-radius: 4px;
+   
+}
+.cardDetail img{
+    width: 65%;
+}
+.cardDetail h3{
+    margin-top: 11px;
+}
+.cardDetail p{
+    margin-top: 20px;
+}
+.cardDetail img{
+    margin-top: 22px;
+}
+#close{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    background-color: #fff;
+    color: black;
+    width: 30px;
+    height: 30px;
+    border: none;
+    font-size: 19px;
+    cursor: pointer;
+}
+/* button */
+#navBtn{
+    width: 70px;
+    height: 27px;
+    border: none;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    font-size: 16px;
+    margin-inline: 11px;
+    cursor: pointer;
+    
+}
+.left{
+    margin-right: 33px;
+     
+}
+.left i{
+    font-size: 24px;
+    position: relative;
+    top:4px;
+    cursor: pointer;
+}
+#loginPage{
+    display: none;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    position: fixed; 
+    top: 25%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 40%);
+}
+#loginPage input{
+    width: 200px;
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 8px;
+    border: 1px solid black;
+}
+#loginPage button{
+    width: 80px;
+    height: 28px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    border: none;
+    font-size: 17px;
+    margin-top: 11px;
+}
+ 
+@media only screen and (max-width:680px){
+    li{
+        display: none;
+    }
+}
+ 
+@media only screen and (max-width:455px){
+      
+     .cardDetail{
+        width: 65%;
+     }
+      
+}
+
+@media only screen and (max-width:335px){
+    
+    .items .cards{
+        width: 80%;
+        margin: auto;
+    }
+    #loginPage{
+        width: 70%;
+    }
+    #loginPage input{
+        width: 80%;
+    }
+}
