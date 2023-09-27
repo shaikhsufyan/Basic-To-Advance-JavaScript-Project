@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: silver;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 800px;
+    height: 280px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 11px;
+    transition: all 1s ease;
+}
+.card img{
+    width: 22%;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 13px;
+}
+.card p{
+    margin-top: 11px;
+}
+h1{
+    text-align: center;
+    margin-top: 22px;
+    padding: 33px;
+    font-size: 44px;
+}
