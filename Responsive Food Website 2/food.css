@@ -1,0 +1,317 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+ }
+ body{
+    font-family: 'Roboto', sans-serif;
+     background-color: rgb(224, 222, 222);
+ }
+ nav{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(94, 94, 94);
+  color: white;
+  padding: 22px;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+ }
+ ul{
+  display: flex;
+  align-items: center;
+ }
+ ul li{
+  list-style: none;
+ }
+ ul li a{
+  text-decoration: none;
+  margin-inline: 20px;
+  font-size: 20px;
+  color: white;
+ }
+ ul li a:hover{
+  color: orangered;
+  border-bottom: 2px solid orangered;
+ }
+ .icons{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+ }
+ .icons i{
+  margin-inline: 11px;
+  background-color: rgb(245, 245, 245);
+  padding: 6px;
+  font-size: 20px;
+  border-radius: 4px;
+  color: black;
+ }
+ .logo{
+  font-size: 20px;
+ }
+ .logo span{
+  color: orangered;
+ }
+ .main{
+  display: flex;
+  justify-content: space-around;
+  padding: 44px;
+  background-color: rgb(94, 94, 94);
+color: white;
+margin-top:80px ;
+ }
+ .mainText{
+  margin-top: 97px;
+ }
+ .mainText h1{
+  font-size: 55px;
+ }
+ .mainText h1 span{
+  color: rgb(6, 246, 6);
+ }
+ .mainText h3{
+  font-size: 33px;
+  margin-top: 15px;
+ }
+ .mainText h3 span{
+  color: orangered;
+ }
+ .mainText p{
+  margin-top: 15px;
+ }
+ .mainText button{
+  width: 140px;
+  height: 38px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid rgb(3, 247, 3);
+  font-size: 20px;
+  margin-top: 22px;
+ }
+ .mainText button:hover{
+  background-color: rgb(4, 250, 4);
+ }
+ .cards{
+  display: grid;
+  justify-content: center;
+  width: 80%;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: auto;
+ }
+ .foodcard{
+
+  height: 360px;
+  margin-inline:11px ;
+  background-color: #fff;
+  margin-top: 22px;
+ }
+ .foodcard img{
+  width: 100%;
+  height: 200px;
+ }
+ .foodcard h3{
+  margin-left: 11px;
+  margin-top: 11px;
+ }
+ .foodcard p{
+  margin-left: 11px;
+  margin-top: 11px;
+ }
+ .foodcard button{
+  width: 80px;
+  height: 28px;
+  border: none;
+  background-color: orangered;
+  color: white;
+  font-size: 16px;
+  margin-left: 11px;
+  margin-top: 11px;
+ }
+
+ .head{
+  text-align: center;
+  padding: 77px;
+ }
+ .head span{
+  color: orangered;
+ }
+ .reviews{
+  width: 800px;
+  height: 250px;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+ }
+ .crd{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #fff;
+  text-align: center;
+  transition: all 1s ease;
+
+ }
+ .crd img{
+  width: 22%;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 11px;
+ }
+
+ .blogs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+ }
+ .blogCard{
+  width: 300px;
+  height: 360px;
+  background-color: #b7b2b2;
+  margin-top: 22px;
+  margin-inline: 20px;
+ }
+ .blogCard img{
+  width: 100%;
+  height: 200px;
+ }
+ .blogCard h3{
+  margin-top: 11px;
+  margin-left: 11px;
+ }
+ .blogCard p{
+  margin-top: 11px;
+  margin-left: 11px;
+ }
+ .blogCard a{
+  position: absolute;
+  background-color: orangered;
+  color: white;
+  width: 80px;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+  margin-top: 11px;
+  margin-left: 11px;
+ }
+ .footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: white;
+  color: black;
+  padding: 66px;
+  margin-top: 44px;
+ }
+ .text p{
+  margin-top: 11px;
+ }
+ .creator{
+  text-align: center;
+  padding: 22px;
+  background-color: #fff;
+  border-top:2px solid black ;
+ }
+ #bar{
+  display: none;
+ }
+ .searchBar{
+  display: none;
+ }
+ .active1{
+  display: block;
+ }
+ .active1 input{
+  width: 230px;
+  padding: 6px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  position: fixed;
+  top: 12%;
+  right: 2%;
+ }
+ .loginPage{
+  display: none;
+ }
+ .active2{
+  display: block;
+  width: 300px;
+  padding: 11px;
+  border-radius: 4px;
+  background-color: #fff;
+  position: fixed;
+  top: 12%;
+  right: 2%;
+  text-align: center;
+ }
+ .active2 input{
+  margin-top: 11px;
+  width: 280px;
+  padding: 6px;
+  border: 1px solid black;
+  font-size: 16px;
+ }
+ .active2 button{
+  width: 80px;
+  height: 28px;
+  background-color: orangered;
+  color: white;
+  font-size: 16px;
+  border: none;
+  margin-top: 22px;
+ }
+
+ @media only screen and (max-width:900px){
+  .main{
+    display: block;
+    text-align: center;
+  }
+  .reviews{
+    width: 90%;
+  }
+ }
+ 
+ @media only screen and (max-width:720px){
+  ul{
+    display: none;
+  }
+  #bar{
+    display: block;
+  }
+  .showData{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    background-color: silver;
+    top: 75px;
+    width: 100%;
+    gap: 22px;
+  }
+ }
+
+ 
+ @media only screen and (max-width:600px){
+  .main img{
+    width: 90%;
+  }
+  .crd img{
+    height: 80px;
+  }
+ }
+ 
+ 
+ @media only screen and (max-width:400px){
+  .mainText h1{
+   font-size: 33px;
+  }
+  .mainText h3{
+    font-size: 23px;
+   }
+   .icons{
+    margin-right: 11px;
+   }
+ }
