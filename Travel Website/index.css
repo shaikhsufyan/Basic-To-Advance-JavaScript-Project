@@ -1,0 +1,313 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    /* height: 100ch; */
+
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 22px;
+    background-color: rgb(255, 166, 0);
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+.logo{
+    font-size: 20px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    margin-inline: 20px;
+    font-size: 20px;
+    color: white;
+}
+ul li a:hover{
+    color: black;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.icon i{
+    font-size: 25px;
+    cursor: pointer;
+    margin-inline: 11px;
+}
+ 
+.main{
+   background-image: url("main.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 100vh;
+}
+.main  .mainText{
+    position: relative;
+    top: 42%;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    
+}
+.mainText button{
+    width: 140px;
+    height: 39px;
+    border: 2px solid orange;
+    color: white;
+    background-color: transparent;
+    margin-top: 33px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.mainText button:hover{
+    background-color: orange;
+}
+.head{
+    padding: 90px;
+    text-align: center;
+}
+.head span{
+    color: orange;
+}
+.bookingPage{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bookingPage img{
+    width: 400px;
+    border-radius: 11px;
+}
+.booking{
+    width: 350px;
+    padding: 22px;
+    box-shadow: 0px 4px 4px 6px rgb(218, 217, 217) ;
+    border-radius: 5px;
+    margin-inline: 32px;
+    margin-top: 11px;
+    
+}
+.booking input{
+    width: 340px;
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 2px;
+    border: 1px solid silver;
+    
+}
+.booking p{
+    margin-top: 13px;
+}
+.booking button{
+    width: 100px;
+    height: 33px;
+    background-color: orange;
+    color: white;
+    margin-top: 22px;
+    border: none;
+    font-size: 18px;
+}
+.booking button:hover{
+    border: 2px solid orange;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+.plans{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.planCard{
+    width: 310px;
+    height: 400px;
+    box-shadow: 0px 6px 4px 6px rgb(219, 219, 219) ;
+    margin-inline: 22px;
+    border-radius: 5px;
+    margin-top: 22px;
+}
+.planCard img{
+    width: 100%;
+    height: 280px;
+    border-radius: 5px;
+}
+.planCard h3{
+    margin-left: 11px;
+    margin-top: 11px;
+}
+.planCard p{
+    margin-left: 11px;
+    margin-top: 11px;
+}
+.cards{
+    display: grid;
+    justify-content: center;
+    width: 80%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    overflow: hidden;
+    margin: auto;
+
+}
+.places{
+    margin-inline: 22px;
+    height: 390px;
+    box-shadow: 0px 6px 4px 6px rgb(228, 227, 227) ;
+    margin-top: 44px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.places img{
+    width: 100%;
+    height: 280px;
+    border-radius: 5px;
+}
+.places h3{
+    margin-left: 11px;
+    margin-top: 11px;
+}
+.places p{
+    margin-left: 11px;
+    margin-top: 11px;
+}
+ .contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ .contact img{
+    width: 600px;
+ }
+ .connectText{
+    margin-top: 164px;
+    width: 300px;
+    height: 220px;
+    padding: 11px;
+    box-shadow: 0px 6px 4px 6px rgb(228, 227, 227) ;
+    margin-inline: 22px;
+
+ }
+ .connectText input{
+    margin-top: 3px;
+    width: 280px;
+    padding: 6px;
+    font-size: 17px;
+    border: 1px solid black;
+ }
+ .connectText p{
+    margin-top: 15px;
+ }
+ .connectText button{
+    width: 90px;
+    height: 30px;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    font-size: 16px;
+    margin-top: 22px;
+    border: none;
+ }
+ .footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 77px;
+    margin-top: 55px;
+ }
+ .text p{
+    margin-top: 11px;
+ }
+ .loginPage{
+    display: none;
+ }
+ .active1{
+    display: block;
+    width: 270px;
+    padding: 11px;
+    position: fixed;
+    top: 14%;
+    right: 2%;
+    box-shadow: 0px 6px 4px 6px rgb(235, 234, 234) ;
+
+ }
+ .active1 input{
+    width: 250px;
+    padding: 8px;
+    border: 1px solid black;
+    margin-top: 11px;
+    font-size: 16px;
+     
+ }
+ .active1 button{
+    width: 80px;
+    height: 28px;
+    border: none;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    margin-top: 22px;
+    font-size: 18px;
+ }
+#bar{
+    display: none;
+}
+
+ @media only screen and (max-width:900px){
+    ul{
+        display: none;
+    }
+    #bar{
+        display: block;
+    }
+    .bookingPage img{
+        width: 70%;
+    }
+    .contact img{
+        width: 90%;
+    }
+ }
+
+ @media only screen and (max-width:780px){
+    .mainText h1{
+        font-size: 40px;
+    }
+ }
+ 
+ 
+ 
+ @media only screen and (max-width:500px){
+    .mainText h1{
+        font-size: 30px;
+    }
+    .booking {
+        width: 80%;
+    }
+    .booking input{
+        width: 90%;
+    }
+ }
+ 
+ 
+ @media only screen and (max-width:350px){
+    .connectText{
+        width: 80%;
+    }
+    .connectText input{
+        width: 90%;
+    }
+ }
