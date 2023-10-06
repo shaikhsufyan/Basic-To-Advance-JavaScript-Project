@@ -1,0 +1,365 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e4e3e3;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 22px;
+    background-color: #fff;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+ul{
+    display: none;
+}
+.logo{
+    font-size: 22px;
+}
+.logo span{
+    color: orange;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.icons i{
+    padding: 7px;
+    font-size: 22px;
+    background-color: #eeeeee;
+    margin-inline: 6px;
+    border-radius: 4px;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+}
+.searchBar input{
+    width: 320px;
+    padding: 9px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #f1f1f1;    
+    border-radius: 4px;
+}
+.searchBar i{
+    position: relative;
+    right: 8%;
+    font-size: 18px;
+    top: 1%;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px;
+    margin-top: 85px;
+}
+.main img{
+    width: 60%;
+}
+ 
+.mainText h1{
+    font-size: 40px;
+}
+.mainText p{
+    margin-top: 12px;
+}
+.mainText button{
+    margin-top: 22px;
+    width: 140px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+.booking{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 5px;
+    margin-top: 33px;
+    width: 80%;
+    margin: auto;
+}
+.booking .book{
+    margin-inline: 22px;
+}
+.book input{
+    width: 230px;
+    padding: 6px;
+    border: none;
+    outline: none;
+    background-color: #eeeeee;
+    font-size: 17px;
+    border-radius: 4px;
+    margin-top: 5px;
+
+}
+.booking button{
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    border: none;
+    margin-top: 22px;
+}
+.head{
+    padding: 88px;
+    text-align: center;
+}
+.head span{
+    color: rgb(255, 136, 0);
+}
+.packages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.packages .card{
+    width: 300px;
+    height: 360px;
+    border-radius: 5px;
+    margin-inline: 20px;
+    background-color: #fff;
+    margin-top: 22px;
+}
+.card h3{
+    margin-left: 11px;
+    margin-top: 11px;
+}
+.card p{
+    margin-left: 11px;
+    margin-top: 11px;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+.tours{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tours .tourCard{
+    width: 300px;
+    height: 360px;
+    text-align: center;
+    background-color: #fff;
+    padding: 12px;
+    margin-inline: 20px;
+    margin-top: 22px;
+}
+.tourCard h3{
+    margin-top: 20px;
+}
+.tourCard p{
+    margin-top: 20px;
+}
+.tourCard button{
+    margin-top: 22px;
+    width: 120px;
+    height: 30px;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+.tourCard .plan{
+    background-color: #eeeeee;
+    border-radius: 2px;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.customer{
+   width: 800px;
+   height: 240px;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    
+}
+.customer .reviewCard{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #fff;
+    transition: all 1s ease;
+}
+.reviewCard img{
+    width: 22%;
+    height: 150px;
+    margin-top: 12px;
+    border-radius: 50%;
+}
+.reviewCard p{
+    margin-top: 11px;
+}
+.contact{
+    width: 300px;
+    padding: 22px;
+    background-color:#fff;
+    text-align: center;
+    margin: auto;
+
+}
+.contact input{
+    width: 90%;
+    padding: 6px;
+    font-size: 18px;
+    margin-top: 13px;
+}
+.contact button{
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+    color: white;
+    font-size: 19px;
+    margin-top: 22px;
+    border: none;
+}
+button:hover{
+    border: 2px solid orange;
+    background-color: transparent;
+    color: orange;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 66px;
+    margin-top: 55px;
+    background-color: black;
+    color: white;
+}
+.text p{
+    margin-top: 11px;
+}
+.active1{
+    background-color: black;
+    color: black;
+}
+ .active1 .mainText{
+    color: white;
+ }
+.loginPage{
+    display: none;
+}
+.active2{
+    display: block;
+    background-color: #fff;
+    padding: 22px;
+    position: fixed;
+    top: 12%;
+    right: 2%;
+    text-align: center;
+
+}
+.active2 input{
+    width: 90%;
+    padding: 6px;
+    margin-top: 11px;
+}
+.active2 button{
+    width: 90px;
+    height: 28px;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    margin-top: 22px;
+    border: none;
+}
+.showData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    position: fixed;
+    top: 85px;
+    right: 4%;
+    background-color: #fff;
+    border-radius: 4px;
+    gap: 22px;
+    padding: 32px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+ul li a:hover{
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+@media screen and (max-width:960px){
+    .main{
+        display: block;
+        text-align: center;
+    }
+    .customer{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:800px){
+    .searchBar{
+        display: none;
+    }
+}
+@media screen and (max-width:1100px){
+    .booking{
+        display: block;
+        text-align: center;
+        width: 300px;
+    }
+     
+}
+
+@media screen and (max-width:600px){
+    .main img{
+        width: 90%;
+    }
+    .mainText h1{
+        font-size: 30px;
+    }
+    .mainText p{
+        font-size: 14px;
+    }
+    .reviewCard img{
+        width: 23%;
+        height: 80px;
+    }
+}
+@media screen and (max-width:400px){
+    .booking{
+        width: 70%;
+    }
+    .booking input{
+        width: 90%;
+    }
+    .contact{
+        width: 80%;
+    }
+}
