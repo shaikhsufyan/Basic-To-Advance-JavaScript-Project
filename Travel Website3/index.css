@@ -1,0 +1,295 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    background-color: rgb(250, 220, 225);
+    font-family: 'Roboto', sans-serif;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 22px;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    background-color: rgb(250, 220, 225);
+
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    margin-inline: 20px;
+    color: black;
+    font-size: 20px;
+}
+ul li a:hover{
+    color: rgb(255, 45, 80);
+    border-bottom: 2px solid rgb(255, 37, 74);
+}
+nav button{
+    width: 90px;
+    height: 33px;
+    border-radius: 22px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(248, 44, 78);
+}
+.logo{
+    font-size: 21px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    margin-top: 141px;
+}
+.mainText h1{
+    font-size: 53px;
+}
+.mainText p{
+    margin-top: 12px;
+}
+.mainText button{
+    margin-top: 25px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color: rgb(247, 42, 76);
+    color: white;
+    font-size: 20px;
+}
+ button:hover{
+    border: 2px solid rgb(253, 32, 69);
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+.main i{
+    font-size: 450px;
+    color: rgb(248, 131, 151);
+}
+.main img{
+    position: absolute;
+    right: 121px;
+    
+}
+.head{
+    text-align: center;
+    padding: 77px;
+}
+.head span{
+    color: rgb(253, 17, 56);
+}
+.places{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.places .card{
+    width: 300px;
+    height: 350px;
+    border-radius: 5px;
+    margin-inline: 20px;
+    background-color: #fff;
+    margin-top: 22px;
+}
+.card img{
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+}
+.card p{
+    margin-top: 11px;
+    margin-left: 11px;
+}
+.packages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.packCard{
+    width: 300px;
+    height: 370px;
+    background-color: #fff;
+    margin-inline: 22px;
+    margin-top: 22px;
+    border-radius: 4px;
+}
+.packCard img{
+    width: 100%;
+    height: 250px;
+    border-radius: 4px;
+
+}
+.packCard p{
+    margin-left: 11px;
+    margin-top: 11px;
+}
+.packCard button{
+    width: 80px;
+    height: 28px;
+    border-radius: 22px;
+    background-color: rgb(250, 17, 56);
+    color: white;
+    border: none;
+    font-size: 16px;
+    margin-left: 11px;
+    margin-top: 11px;
+}
+.clients{
+    width: 100%;
+    height: 370px;
+    position: relative;
+    overflow: hidden;
+
+}
+.clients .review{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: auto;
+    background-color: #fff;
+    text-align: center;
+    transition: all 1s ease;
+
+}
+.review img{
+    width: 20%;
+    height: 230px;
+    border-radius: 50%;
+    margin-top: 22px;
+}
+.review p{
+    margin-top: 11px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 45px;
+    margin-top: 65px;
+    background-color: black;
+    color: white;
+}
+.text{
+    margin-top: 11px;
+}
+.text p{
+    margin-top: 12px;
+}
+.login{
+    display: flex;
+    align-items: center;
+    margin-right: 11px;
+}
+#bar{
+    display: none;
+    font-size: 25px;
+}
+.loginPage{
+    
+    display: none;
+}
+.active1{
+    display: block;
+    width: 250px;
+    padding: 11px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    position: fixed;
+    box-shadow: 0px 2px 4px 2px rgb(216, 216, 216);
+    top: 75px;
+    right:2%;
+}
+.active1 input{
+    width: 90%;
+    padding: 5px;
+    margin-top: 22px;
+    border: 1px solid black;
+    font-size: 16px;
+    background-color: transparent;
+}
+.active1 button{
+    width: 80px;
+    height: 28px;
+    background-color: rgb(247, 9, 48);
+    color: white;
+    font-size: 17px;
+    border-radius: 22px;
+    border: none;
+    margin-top: 25px;
+     
+}
+
+@media screen and (max-width:1100px){
+    .main{
+        display: block;
+        text-align: center;
+    }
+    .main img{
+        margin-right: 122px;
+    }
+}
+@media screen and (max-width:830px){
+    .main img{
+        margin-right: 35px;
+    }
+    ul{
+        display: none;
+
+    }
+    #bar{
+        display: block;
+        margin-inline: 11px;
+        cursor: pointer;
+    }
+    .showData{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 75px;
+        right: 4%;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 7px;
+        gap: 22px;
+    }
+    .review img{
+        height: 150px;
+    }
+}
+@media screen and (max-width:700px){
+    .mainText h1{
+        font-size: 33px;
+    }
+    .main img{
+        margin-right: -63px;
+        width: 90%;
+    }
+    .main i{
+        font-size: 400px;
+    }
+}
+
+@media screen and (max-width:450px){
+    .main i{
+        font-size: 300px;
+    }
+    .review img{
+        width: 33%;
+        height: 120px;
+    }
+}

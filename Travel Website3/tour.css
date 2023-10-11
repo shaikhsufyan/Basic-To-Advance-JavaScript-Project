@@ -1,0 +1,271 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(250, 220, 225);
+    font-family: 'Roboto', sans-serif;
+} 
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(250, 220, 225);
+    padding: 22px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-inline: 20px;
+    color: black;
+}
+ul li a:hover{
+    color: rgb(254, 20, 59);
+    border-bottom: 2px solid rgb(244, 20, 57);
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+#bar{
+    display: none;
+}
+.icons button{
+    width: 80px;
+    height: 28px;
+    border: none;
+    background-color: rgb(252, 4, 45);
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 22px;
+}
+.logo{
+    font-size: 22px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 132px;
+}
+.mainText{
+    margin-top: 111px;
+}
+.main i{
+    font-size: 500px;
+    color: rgb(250, 153, 169);
+}
+.main img{
+    position: absolute;
+    right: 94px;
+}
+.mainText h1{
+    font-size: 54px;
+}
+.mainText p{
+    margin-top: 11px;
+}
+.mainText button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(254, 8, 49);
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 22px;
+}
+.head{
+    text-align: center;
+    padding: 80px;
+}
+.head span{
+    color: rgb(250, 13, 53);
+}
+.places{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.placeCard{
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-inline: 20px;
+    margin-top: 22px;
+}
+.placeCard img{
+    width: 100%;
+    height: 200px;
+    border-radius: 4px;
+}
+.placeCard p{
+    margin-top: 11px;
+    margin-left: 11px;
+}
+.packages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.packages .card{
+    width: 300px;
+    height: 310px;
+    background-color: #fff;
+    margin-inline: 20px;
+    margin-top: 22px;
+}
+.card img{
+    width: 100%;
+    height: 190px;
+}
+.card p{
+    margin-top: 11px;
+    margin-left: 11px;
+}
+.card button{
+    margin-top: 11px;
+    margin-left: 11px;
+    padding: 4px;
+    background-color: rgb(254, 10, 50);
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 22px;
+}
+.reviews{
+    width: 100%;
+    height: 370px;
+    background-color: #fff;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+.reviews .reviewCard{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #fff;
+    text-align: center;
+    transition: all 1s ease;
+}
+.reviewCard img{
+    width: 23%;
+    height: 230px;
+    margin-top: 11px;
+    border-radius: 50%;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 55px;
+    margin-top: 77px;
+    background-color: black;
+    color: white;
+
+}
+.text p{
+    margin-top: 12px;
+}
+.loginPage{
+    display: none;
+}
+.active{
+    display: block;
+    width: 240px;
+    background-color: #fff;
+    text-align: center;
+    padding: 11px;
+    position: fixed;
+    top: 75px;
+    right: 4%;
+}
+.active input{
+    width: 90%;
+    font-size: 17px;
+    padding: 5px;
+    margin-top: 11px;
+}
+.active button{
+    width: 90px;
+    height: 28px;
+    background-color: rgb(253, 10, 51);
+    color: white;
+    font-size: 18px;
+    margin-top: 22px;
+    border: none;
+}
+
+@media screen and (max-width:1100px){
+    .main{
+        display: block;
+        text-align: center;
+    }
+    .main img{
+        right: 224px;
+    }
+}
+@media screen and (max-width:800px){
+    .main img{
+        right: 95px;
+    }
+    ul{
+        display: none;
+    }
+    #bar{
+        display: block;
+        font-size: 25px;
+        margin-inline: 11px;
+    }
+    .reviewCard img{
+        width: 22%;
+        height: 150px;
+    }
+    .showData{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        top: 75px;
+        right: 4%;
+        background-color: #fff;
+        padding: 22px;
+        gap: 22px;
+    }
+}
+@media screen and (max-width:550px){
+    .main i{
+        font-size: 450px;
+    }
+    .main img{
+        right: 33px;
+         
+    }
+    .mainText h1{
+        font-size: 33px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .main i{
+        font-size: 330px;
+    }
+    .main img{
+        width: 96%;
+         
+    }
+    .reviewCard img{
+        height: 100px;
+    }
+}
