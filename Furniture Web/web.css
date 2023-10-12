@@ -1,0 +1,234 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0e0e0;
+
+} 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e0e0e0;
+    padding: 20px;
+
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-inline: 22px;
+}
+ul li a:hover{
+    color:rgb(110, 162, 7) ;
+    border-bottom: 2px solid rgb(120, 175, 10);
+}
+#bar{
+    display: none;
+}
+.logo{
+    font-size: 23px;
+
+}
+.logo span{
+    color: rgb(120, 175, 10);
+}
+
+.main{
+    background-image: url("main1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.mainText{
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 66px;
+    font-size: 26px;
+    color: white;
+}
+.mainText span{
+    color: rgb(149, 219, 10);
+}
+.mainText button{
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    margin-top: 24px;
+    background-color: rgb(130, 191, 7);
+    color: white;
+    
+}
+.head{
+    text-align: center;
+    padding: 80px;
+}
+.head span{
+    color: rgb(117, 174, 4);
+}
+.shops{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.shops .card{
+    width: 300px;
+    height: 330px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-inline: 20px;
+    margin-top: 22px;
+}
+.card img{
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+}
+.card p{
+    margin-left: 11px;
+    margin-top: 11px;
+}
+
+.arrival{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.arrivalCard{
+    width: 300px;
+    height: 310px;
+    background-color: #fff;
+    margin-inline: 20px;
+    border-radius: 6px;
+    margin-top: 22px;
+}
+.arrivalCard img{
+    width: 100%;
+    height: 200px;
+    border-radius: 6px;
+
+}
+.arrivalCard h3{
+    margin-top: 11px;
+    margin-left: 11px;
+}
+.arrivalCard p{
+    margin-top: 11px;
+    margin-left: 11px;
+}
+.partners{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 22px;
+}
+.partners .brand{
+    width: 100%;
+    height: 100%;
+    /* background-color: #fff; */
+    text-align: center;
+    position: absolute;
+    transition: all 1s ease;
+}
+.brand img{
+    width: 300px;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    background-color: #fff;
+    padding: 22px;
+    border-radius: 6px;
+    margin: auto;
+}
+.aboutText{
+    padding: 11px;
+}
+.aboutText p{
+    margin-top: 22px;
+}
+.aboutText button{
+    width: 120px;
+    height: 33px;
+    background-color: rgb(115, 169, 6);
+    color: white;
+    font-size: 18px;
+    border: none;
+    margin-top: 22px;
+}
+.about img{
+    width: 300px;
+    border-radius: 6px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 66px;
+    margin-top: 66px;
+    background-color: black;
+    color: white;
+}
+.text p{
+    margin-top: 11px;
+}
+@media screen and (max-width:800px){
+    ul{
+        display: none;
+    }
+    #bar{
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .showData{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 22px;
+        border-radius: 5px;
+        background-color: #fff;
+        position: fixed;
+        top: 75px;
+        right: 4%;
+        gap: 20px;
+    }
+}
+@media screen and (max-width:900px){
+    .about{
+        display: block;
+        width: 80%;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width:450px){
+    .partners{
+        width: 70%;
+    }
+    .brand img{
+        width: 80%;
+    }
+    .about img{
+        width: 90%;
+    }
+}

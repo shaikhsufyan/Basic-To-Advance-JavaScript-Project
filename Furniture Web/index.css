@@ -1,0 +1,239 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #dfdcdc;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #ebebeb;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+ul{
+    display: flex;
+ 
+}
+ul li {
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-inline: 20px;
+}
+ul li a:hover{
+    color: rgb(108, 168, 17);
+    border-bottom: 2px solid rgb(120, 185, 22);
+}
+.logo{
+    font-size: 22px;
+}
+.logo span{
+    color: rgb(125, 187, 32);
+}
+.main{
+    background-image: url("main1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.main .mainText{
+    position: absolute;
+    margin-top: 145px;
+    margin-left: 85px;
+    font-size: 26px;
+    color: white;
+}
+.mainText span{
+    color: rgb(163, 248, 34);
+}
+.mainText button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(144, 219, 30);
+    border: none;
+    margin-top: 22px;
+    font-size: 20px;
+    color: white;
+}
+.mainText button:hover{
+    border: 2px solid rgb(163, 252, 29);
+    background-color: transparent;
+    color: rgb(163, 252, 29);
+    cursor: pointer;
+}
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 300px;
+    height: 330px;
+    background-color: white;
+    margin-inline: 20px;
+    margin-top: 22px;
+    cursor: pointer;
+}
+.card img{
+    width: 100%;
+    height: 220px;
+    border-radius: 3px;
+}
+.card p{
+    margin-left: 11px;
+    margin-top: 11px;
+}
+.head{
+    text-align: center;
+    padding: 85px;
+
+}
+.head span{
+    color: rgb(114, 180, 15);
+}
+.arrivals{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.arrivalCard{
+    width: 300px;
+    height: 330px;
+    background-color: #fff;
+    margin-inline: 20px;
+    border-radius: 5px;
+    margin-top: 22px;
+
+}
+.arrivalCard img{
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+}
+.arrivalCard h3{
+    margin-top: 11px;
+    margin-left: 11px;
+}
+.arrivalCard p{
+    margin-top: 11px;
+    margin-left: 11px;
+}
+.partners{
+  width: 400px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+
+}
+.partners  #brand{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  transition: all 1s ease;
+}
+#brand img{
+    width: 200px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    background-color: #fff;
+    padding: 22px;
+    margin: auto;
+    border-radius: 5px;
+    gap: 22px;
+}
+.about img{
+    width: 300px;
+   
+    border-radius: 6px;
+}
+.aboutText p{
+    margin-top: 12px;
+}
+.aboutText h2{
+    color: rgb(114, 189, 1);
+
+}
+.aboutText button{
+    width: 110px;
+    height: 33px;
+    background-color: rgb(121, 194, 13);
+    color: white;
+    font-size: 18px;
+    margin-top: 22px;
+    border: none;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 55px;
+    margin-top: 66px;
+    background-color: black;
+    color: white;
+
+}
+.text p{
+    margin-top: 11px;
+}
+#bar{
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:800px){
+    ul{
+        display: none;
+
+    }
+    #bar{
+        display: block;
+    }
+    .showData{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        padding: 22px;
+        background-color: #fff;
+        border-radius: 5px;
+        gap: 20px;
+        position: fixed;
+        top: 75px;
+        right: 4%;
+        
+    }
+}
+
+@media screen and (max-width:900px){
+    .about{
+        display: block;
+        width: 80%;
+        padding: 11px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:500px){
+    .about img{
+        width: 80%;
+    }
+    .partners{
+        width: 90%;
+    }
+} 
