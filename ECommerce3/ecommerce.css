@@ -1,0 +1,210 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 197, 207);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: #fff;
+}
+ul{
+    display: flex;
+
+}
+ul li {
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-inline: 20px;
+}
+ul li a:hover{
+    color: rgb(255, 7, 48);
+    border-bottom: 2px solid #fc022b;
+
+}
+.logo{
+    font-size: 23px;
+}
+.logo span{
+    color: rgb(255, 7, 48);
+
+}
+#bar{
+    display: none;
+    font-size: 25px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    padding: 11px;
+    margin-top: 110px;
+}
+.mainText{
+    margin-top: 108px;
+}
+.mainText h1{
+    font-size: 70px;
+}
+.mainText p{
+    margin-top: 12px;
+}
+.mainText button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(247, 9, 48);
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 24px;
+}
+.shops{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.shops .card{
+    width: 280px;
+    height: 390px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 22px;
+    margin-inline: 25px;
+}
+.card img{
+    width: 100%;
+    height: 300px;
+    border-radius: 4px;
+}
+.card p{
+    margin-top: 11px;
+    margin-left: 11px;
+}
+.head{
+    text-align: center;
+    padding: 80px;
+}
+.trends{
+    width: 900px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+.trends .trendsCard{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 1s ease;
+}
+.trendsCard img{
+    width: 100%;
+    height: 300px;
+    margin-inline: 22px;
+    border-radius: 4px;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 55px;
+    margin-top: 66px;
+    background-color: rgb(246, 123, 143);
+}
+.text p{
+    margin-top: 12px;
+}
+.cardPage{
+    display: flex;
+    gap: 33px;
+    width: 900px;
+    margin-top: 64px;
+    padding: 44px;
+}
+.cardText p{
+    margin-top: 16px;
+}
+.cardText a{
+    padding: 6px 12px;
+    background-color: orange;
+    text-decoration: none;
+    margin-top: 33px;
+    position: relative;
+    top: 25px;
+    color: white;
+}
+.cardPage{
+    display: none;
+}
+@media screen and (max-width:950px){
+    .main{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:700px){
+    ul{
+        display: none;
+    }
+    #bar{
+        display: block;
+        cursor: pointer;
+    }
+    .showData{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        position: fixed;
+        top: 75px;
+        right: 4%;
+        background-color: #fff;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:1010px){
+    .trends{
+        width: 90%;
+    }
+    .trendsCard img{
+        width: 150px;
+        margin-inline: 10px;
+
+    }
+}
+
+@media screen and (max-width:630px){
+    .trends{
+        width: 90%;
+    }
+    .trendsCard img{
+        width: 30%;
+        height: 100px;
+        margin-inline: 10px;
+    }
+    .main img{
+        width: 99%;
+    }
+    .mainText h1{
+        font-size: 33px;
+    }
+    .mainText p{
+        font-size: 12px;
+    }
+
+}

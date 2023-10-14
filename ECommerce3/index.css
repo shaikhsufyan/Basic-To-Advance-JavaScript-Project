@@ -1,0 +1,232 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 210, 216);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: #fff;
+}
+ul{
+    display: flex;
+
+}
+ul li {
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    margin-inline: 22px;
+    font-size: 20px;
+    color: black;
+}
+ul li a:hover{
+    color: rgb(252, 10, 50);
+    border-bottom: 2px solid rgb(255, 3, 45);
+}
+.logo{
+    font-size: 22px;
+}
+.logo span{
+    color: rgb(255, 7, 48);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.mainText{
+    margin-top: 110px;
+    
+}
+.mainText h1{
+    font-size: 70px;
+}
+.mainText p{
+    margin-top: 12px;
+}
+.mainText button{
+    margin-top: 22px;
+    width: 140px;
+    height: 40px;
+    background-color: rgb(250, 10, 50);
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+button:hover{
+    border: 2px solid rgb(253, 2, 43);
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+
+.head{
+    padding: 80px;
+    text-align: center;
+}
+.shop{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.shop .card{
+    width: 280px;
+    height: 390px;
+    background-color: #fff;
+    background-color: #fff;
+    color: black;
+    margin-inline: 24px;
+    margin-top: 22px;
+    border-radius: 5px;
+    
+}
+.card img{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    
+
+}
+.card p{
+    margin-top: 11px;
+    margin-left: 11px;
+}
+.card img:hover{
+    height: 320px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.trending{
+    width: 900px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 5px;
+}
+.trending .trends{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 1s ease;
+    border-radius: 5px;
+    
+}
+.trends img{
+    width: 100%;
+    border-radius: 5px;
+  margin-inline: 23px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 66px;
+    margin-top: 66px;
+    background-color: rgb(248, 140, 160);
+}
+.text p{
+    margin-top: 11px;
+}
+.cardPage{
+    display: none;
+    width: 900px;
+    padding: 44px;
+    margin-top: 77px;
+    gap: 32px;
+}
+.cardPage img{
+    width: 330px;
+    
+}
+.cardText{
+    margin-top: 22px;
+}
+.cardText p{
+    margin-top: 12px;
+}
+.cardText a{
+    padding: 6px 12px;
+    text-decoration: none;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    font-size: 18px;
+    border: none;
+    position: relative;
+    top: 42px;
+    border: 2px solid white;
+}
+#bar{
+    display: none;
+    font-size: 25px;
+}
+@media screen and (max-width:950px){
+    .main{
+        display: block;
+        text-align: center;
+    }
+    .trending{
+        width: 90%;
+        margin: auto;
+    }
+     .trends img{
+        width: 90%;
+ 
+       margin-inline: 4px;
+     }
+}
+
+@media screen and (max-width:800px){
+    ul{
+        display: none;
+    }
+    #bar{
+        display: block;
+    }
+    .showData{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        top: 75px;
+        right: 4%;
+        gap: 20px;
+        background-color: #fff;
+        border-radius: 4px;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:700px){
+    .trends img{
+        width: 30%;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:550px){
+   .main img{
+    width: 99%;
+   }
+   .main{
+    padding: 11px;
+   }
+   .mainText h1{
+    font-size: 33px;
+   }
+   .mainText p{
+    font-size: 12px;
+   }
+}
