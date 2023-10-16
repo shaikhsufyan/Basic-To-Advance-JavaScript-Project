@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #dddbdb;
+}  
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(3, 3, 29);
+    color: white;
+    height: 100px;
+}
+.logo{
+    font-size: 24px;
+
+}
+.searchBar{
+    display: flex;
+}
+.searchBar input{
+    width: 260px;
+    padding: 7px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 1px;
+
+}
+.searchBar button{
+    width: 80px;
+    background-color: orange;
+    color: white;
+    border: none;
+    font-size: 16px;
+    margin-inline: 8px;
+}
+.card{
+    margin-top: 45px;
+}
+.movieCard{
+    display: flex;
+    background-color: #fff;
+    padding: 22px;
+    width: 1000px;
+    margin: auto;
+    gap: 22px;
+    border-radius: 5px;
+}
+.movieCard h1{
+    text-align: center;
+}
+.movieCard .rating{
+    text-align: center;
+}
+.movieCard p{
+    margin-top: 22px;
+}
+.movieCard a{
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding: 7px;
+    margin: auto;
+    position: relative;
+    margin-top: 20px;
+}
+.movieCard span{
+    color: rgb(68, 68, 68);
+}
+.cardText{
+    margin-top: 23px;
+}
+.card h1{
+    text-align: center;
+    
+}
+
+@media screen and (max-width:1100px){
+    .movieCard{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:700px){
+    nav{
+        display: block;
+        height: 120px;
+    }
+    .searchBar{
+        display: flex;
+        justify-content: center;
+        margin-top: 21px;
+    }
+    .logo{
+        text-align: center;
+        position: relative;
+         top: 7px;
+    }
+    .movieCard{
+        display: block;
+        text-align: center;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:450px){
+    .searchBar input{
+        width: 50%;
+    }
+    .searchBar button {
+        margin-inline: 3px;
+        font-size: 15px;
+    }
+    .movieCard img{
+        width: 90%;
+    }
+}

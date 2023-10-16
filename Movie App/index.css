@@ -1,0 +1,156 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e4e2e2;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    background-color: rgb(2, 2, 41);
+    color: white;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    /* padding: 5px; */
+}
+
+.logo h1 {
+    font-size: 35px;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    
+}
+
+.searchBar input {
+    width: 280px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 2px;
+
+
+}
+
+.searchBar button {
+    width: 70px;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    align-items: center;
+    margin-inline: 8px;
+    
+
+}
+
+.card {
+    margin-top: 144px;
+}
+
+.movieCard {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.movieCard h1 {
+    text-align: center;
+}
+
+.movieCard a {
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    margin-top: 22px;
+}
+
+.movieCard .rating {
+    text-align: center;
+    margin-top: 11px;
+}
+
+.movieCard p {
+    margin-top: 22px;
+}
+.movieCard span{
+    color: rgb(46, 46, 46);
+     
+
+}
+.cardText{
+    margin-top: 22px;
+}
+.card h1{
+    text-align: center;
+      
+}
+
+@media screen and (max-width:600px){
+    nav{
+        display: block;
+        
+         
+    }
+    .logo{
+        text-align: center;
+    }
+    .searchBar {
+        display: flex;
+        justify-content: center;
+        margin-top: 11px;
+    }
+     
+}
+@media screen and (max-width:1100px){
+     .movieCard{
+        width: 90%;
+
+     }
+}
+
+@media screen and (max-width:700px){
+    .movieCard{
+        width: 80%;
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:450px){
+    .searchBar input{
+        width: 50%;
+    }
+    .searchBar button{
+        width:60px;
+        font-size: 14px;
+        margin-inline: 4px;
+    }
+    .movieCard img{
+        width: 90%;
+    }
+}
