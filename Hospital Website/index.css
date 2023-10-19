@@ -1,0 +1,303 @@
+/* why choose
+doctor slider
+surgery availables
+services : ambulance */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e2e2e2;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: rgb(9, 102, 102);
+    color: white;
+}
+ul {
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-inline: 20px;
+}
+ul li a:hover{
+    color: black;
+    border-bottom: 2px solid black;
+}
+.logo{
+    font-size: 22px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(15, 128, 128);
+    color: white;
+    padding: 8px;
+    height: 600px;
+    margin-top: 55px;
+}
+
+.mainText h1{
+    font-size: 55px;
+}
+
+.mainText h3{
+    font-size: 35px;
+    margin-top: 12px;
+}
+.mainText button{
+    width: 140px;
+    height: 40px;
+    border: none;
+    margin-top: 22px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.mainText button:hover{
+    border: 2px solid black;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+     
+}
+.doctors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 300px;
+    height: 380px;
+    background-color: #fff;
+    margin-inline: 20px;
+    border-radius: 4px;
+    margin-top: 22px;
+}
+.card img{
+    width: 100%;
+    height: 300px;
+    border-radius: 4px;
+}
+.card p{
+    margin-top: 11px;
+    margin-left: 11px;
+}
+.head{
+    text-align: center;
+    padding: 80px;
+}
+
+.surgery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.surgeryCard{
+    text-align: center;
+    width: 300px;
+    background-color: white;
+    margin-inline: 20px;
+    padding: 20px;
+    margin-top: 22px;
+}
+.surgeryCard img{
+    width: 100px;
+}
+.surgeryCard p{
+    margin-top: 12px;
+}
+.patients{
+    width: 800px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+
+}
+.patientCard{
+    display: flex; 
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 1s ease;
+}
+.patientCard img{
+     width: 350px;
+     margin-inline: 11px;
+     border-radius: 5px;
+     
+}
+ 
+.contact{
+    width: 300px;
+    background-color: #fff;
+    padding: 40px;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+}
+.contact h1{
+    
+    color: rgb(9, 77, 77);
+}
+.contact input{
+    width: 90%;
+    padding: 9px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #e2e2e2;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+.contact button{
+    width: 90px;
+    height: 30px;
+    margin-top: 23px;
+    background-color: rgb(12, 95, 95);
+    color: white;
+    font-size: 17px;
+    border: none;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 66px;
+    color: white;
+    margin-top: 66px;
+    background-color: rgb(6, 51, 51);
+
+}
+.text p{
+    margin-top: 12px;
+}
+
+.content{
+    display: none;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    right: 50%;
+    width: 500px;
+    transform: translate(-50%, 40%);
+    background-color: #fff;
+    border-radius:11px;
+
+}
+.contentDetail{
+    display: flex;
+    padding: 23px;
+    gap: 22px;
+     
+}
+.contentDetail img{
+    width: 50%;
+    height: 300px;
+}
+.contentDetail p{
+    margin-top: 22px;
+}
+.content button{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(9, 97, 97);
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    
+}
+#bar{
+    align-items: center;
+    display: none;
+    font-size: 25px;
+}
+@media screen and (max-width:1100px){
+    .main{
+        text-align: center;
+        display: block;
+        height: auto;
+    }
+    .mainText{
+        margin-top: 115px;
+    }
+}
+
+@media screen and (max-width:900px){
+    ul{
+        display: none;
+    }
+    #bar{
+        display: block;
+    }
+
+} 
+
+@media screen and (max-width:850px){
+    .patients{
+        width: 90%;
+    }
+    .patientCard img{
+        width: 40%;
+    }
+}
+@media screen and (max-width:600px){
+    .mainText h1{
+        font-size: 33px;
+    }
+    .main img{
+        width: 90%;
+    }
+    .content{
+        width: 90%;
+    }
+    .contentDetail img{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .patientCard img{
+        width: 40%;
+        height: 200px;
+        margin-inline: 8px;
+    }
+    .contact{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:400px){
+    .contentDetail img{
+        width: 50%;
+        height: 200px;
+    }
+    .contentDetail{
+        display: block;
+        text-align: center;
+    }
+    .contentDetail h1{
+        font-size: 22px;
+    }
+    .contentDetail p{
+        font-size: 15bpx;
+    }
+}
