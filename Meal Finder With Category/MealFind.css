@@ -1,0 +1,152 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    text-align: center;
+    margin-top: 11px;
+    font-size: 23px;
+}
+.searchBar{
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+} 
+.searchBar input{
+    width: 300px;
+    height: 12px;
+    padding: 11px;
+    outline: none;
+    border-radius: 33px;
+    border: 1px solid rgb(53, 53, 53);
+    font-size: 18px;
+}
+.searchBar button{
+    width: 60px;
+    height: 36px;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    margin-left: -33px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    background-color: orangered;
+}
+.category{
+    
+    width: 600px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 33px;
+}
+.category .dishs{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: auto;
+    transition: all 1s ease;
+
+}
+.dishs button{
+    position: relative;
+    top: 44px; 
+}
+.dishs input{
+    width: 100px;
+    height: 34px;
+    cursor: pointer;
+    background-color: rgb(0, 149, 255);
+    color: white;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 22px;
+      
+}
+.dishs input:hover{
+    background-color: rgb(217, 215, 215);
+    color: black;
+}
+.category button{
+    position: relative;
+    top: 34px;
+    background-color: transparent;
+    font-size: 27px;
+    border: none;
+    cursor: pointer;
+}
+#prevBtn{
+    padding: 11px;
+}
+#nextBtn{
+    position: relative;
+    left: 80%;
+}
+
+.showMeal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.showMeal .card{
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    text-align: center;
+    margin-inline: 20px;
+    margin-top: 22px;
+    box-shadow: 1px 3px 3px 3px rgb(213, 212, 212);
+    border-radius: 4px;
+}
+.card img{
+    width: 100%;
+    border-radius: 4px;
+
+
+}
+.card p{
+    margin-top: 11px;
+}
+.card button{
+    width: 90px;
+    height: 30px;
+    background-color: orangered;
+    color: white;
+    margin-top: 11px;
+    border: none;
+    font-size: 15px;
+}
+ 
+@media screen and (max-width:640px){
+    .category{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .category input{
+        width: 75px;
+    }
+    .searchBar input{
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width:370px){
+    .category input{
+        width: 60px;
+        font-size: 14px;
+    }
+    #nextBtn{
+        left: 74%;
+    }
+}

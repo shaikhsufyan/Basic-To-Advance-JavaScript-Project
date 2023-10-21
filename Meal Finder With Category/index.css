@@ -1,0 +1,174 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+ 
+.logo{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 22px;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 22px;
+}
+.searchBar input{
+    width: 300px;
+    height: 13px;
+    padding: 11px;
+    font-size: 17px;
+    border: 1px solid rgb(83, 83, 83);
+    outline: none;
+    border-radius: 33px;
+     
+}
+.searchBar button{
+    width: 60px;
+    height: 37px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+     margin-left: -33px;
+
+}
+.showMeal{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: -53px;
+    padding: 22px;
+
+}
+.showMeal .card{
+    width: 300px;
+    height: 400px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 32px;
+    border-radius: 4px;
+    box-shadow: 1px 3px 3px 3px rgb(221, 221, 221);
+    
+}
+.card img{
+    width: 100%;
+    border-radius: 4px;
+
+}
+.card p{
+    margin-top: 11px;
+
+}
+.card button{
+    margin-top: 11px;
+    width: 90px;
+    height: 28px;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    font-size: 16px;
+    border: none;
+   
+}
+#category{
+    
+    width: 600px;
+    height: 200px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    
+}
+#category .dishName{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 1s ease;
+    gap: 11px;
+
+}
+.dishName input{
+    width: 100px;
+    height: 35px;
+    border: none;
+    font-size: 18px;
+    border-radius: 22px;
+    color: black;
+    cursor: pointer;
+    background-color: rgb(2, 133, 255);
+    color: white;
+    
+} 
+.dishName input:hover{
+    background-color: rgb(223, 223, 223);
+    color: black;
+}
+
+#category button{
+    position: relative;
+    top: 43px;
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    cursor: pointer;
+}
+#prevBtn{
+    padding:11px;
+ 
+     
+     
+}
+#nextBtn{
+    position: relative;
+    left: 80%;
+    border: none;
+    background-color: transparent;
+}
+@media screen and (max-width:700px){
+    nav{
+        height: 120px;
+    }
+    .logo h1{
+        margin-top: 6px;
+    }
+    
+    #category{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:450px){
+    #category input {
+        width: 65px;
+        height: 33px;
+        font-size: 13px;
+    }
+    #category .dishName{
+        gap: 3px;
+    }
+    #category #nextBtn{
+        left: 67%;
+    }
+}
+@media screen and (max-width:500px){
+    .searchBar input{
+        width: 60%;
+         
+    }
+    /* .searchBar button {
+        width: 70px;
+        font-size: 15px;
+        
+    } */
+}
