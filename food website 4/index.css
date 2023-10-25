@@ -1,0 +1,282 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(12, 87, 87);
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 90px;
+}
+.searchBar{
+    display: flex;
+}
+.searchBar input{
+    width: 360px;
+    padding: 9px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 21px;
+}
+.searchBar button{
+    width: 60px;
+    background-color: orange;
+    color: white;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    font-size: 17px;
+    border: none;
+    font-size: 20px;
+    margin-left: -33px;
+}
+.icons{
+    display: flex;
+    align-self: center;
+    gap: 21px;
+    cursor: pointer;
+
+}
+.icons i{
+    font-size: 26px;
+}
+.option{
+    background-color: rgb(255, 187, 0);
+    width: 90%;
+    border-radius: 11px;
+    margin: auto;
+    margin-top: 122px;
+    text-align: center;
+    height: 200px;
+    padding:15px;
+}
+ ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 52px;
+    
+}
+ul li{
+    list-style: none;
+}
+ ul li a{
+    text-decoration: none;
+    padding: 8px 33px;
+    background-color: #fff;
+    border-radius: 22px;
+    color: black;
+    margin: 3px;
+    margin-inline: 11px;
+    font-size: 20px;
+}
+ ul li a:hover{
+    background-color: #dbd9d9;
+}
+.head{
+    text-align: center;
+    padding: 44px;
+}
+.foods{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.foods .card{
+    width: 300px;
+    height: 320px;
+    background-color: #e4e3e3;
+    margin-inline: 22px;
+    margin-top: 112px;
+
+}
+.card img{
+    width: 100%;
+    height: 220px;
+}
+.card p{
+    margin-left: 11px;
+    margin-top: 11px;
+}
+.card button{
+    margin-left: 11px;
+    margin-top: 11px;
+    width: 110px;
+    height: 28px;
+    border-radius: 20px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 66px;
+    margin-top: 66px;
+    background-color: rgb(11, 88, 88);
+    color: white;
+}
+.text p{
+    margin-top: 12px;
+}
+.container #cartNum{
+    position: absolute;
+    margin-left: 64px;
+    margin-top: -22px;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    border-radius: 13px;
+}
+.chefs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.chefs .chefCard{
+    width: 300px;
+    background-color: #e2e2e2;
+    text-align: center;
+    margin-inline: 22px;
+    box-shadow:  1px 3px 3px 3px rgb(221, 220, 220);
+}
+.chefCard img{
+    width: 100%;
+    height: 220px;
+}
+.chefCard p{
+    padding: 11px;
+}
+.loginPage{
+    display: none;
+}
+.showPage{
+    display: block;
+    width: 300px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 14%;
+    right:4%
+
+}
+.showPage input{
+    margin-top: 22px;
+    width: 90%;
+    border: none;
+    outline: none;
+    padding: 9px;
+    font-size: 18px;
+    border-radius: 2px;
+}
+.showPage button{
+    width: 90px;
+    height: 28px;
+    background-color: rgb(255, 174, 0);
+    color: white;
+    font-size: 18px;
+    border: none;
+    margin-top: 22px;
+}
+.chefData{
+    display: none;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 40%);
+    width: 400px;
+    padding: 22px;
+    background-color: #dddada;
+    margin: auto;
+}
+.chefData button{
+    position: relative;
+    left: -22px;
+    top: -22px;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding:7px;
+
+    
+}
+  
+.detail .chefDetail{
+    display: flex;
+    gap: 20px;
+}
+.chefDetail p{
+    margin-top: 20px;
+}
+.detail img{
+    width: 200px;
+    height: 230px;
+}
+@media screen and (max-width:840px){
+    .searchBar{
+        display: none;
+    }
+    .option{
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width:710px){
+      ul{
+        display: flex;
+        gap:22px;
+        flex-direction: column;
+    }
+    ul li a{
+        padding: 7px 26px;
+        font-size: 17px;
+    }
+
+    .option h1{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .logo h1{
+        font-size: 25px;
+    }
+    .loginPage{
+        width: 80%;
+    }
+    .option{
+        width: 80%;
+    }
+    .chefData{
+        width: 80%;
+    }
+    .chefDetail{
+        display: block;
+        flex-direction: column;
+        text-align: center;
+         
+
+    }
+}
+
+ 
