@@ -1,0 +1,218 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 80px;
+    box-shadow: 1px 3px 3px 3px rgb(228, 227, 227);
+    background-color: white;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+
+.logo img{
+    width: 205px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.searchBar input{
+    width: 350px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    background-color: #f1f1f1;
+    font-size: 18px;
+}
+.searchBar i{
+    margin-left: -27px;
+    font-size: 18px;
+}
+.icons{
+    display: flex;
+    gap: 30px;
+    font-size: 24px;
+}
+.main img{
+    width: 330px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    background-color: rgb(248, 166, 128);
+    padding:15px ;
+}
+.mainText{
+    margin-top: 74px;
+}
+.mainText h1{
+    font-size: 70px;
+}
+.mainText p{
+    margin-top: 22px;
+}
+.mainText button{
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 22px;
+}
+.mainText button:hover{
+    border: 3px solid black;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 600;
+}
+.head{
+    text-align: center;
+    padding: 90px;
+}
+.WomenCard{
+    display: flex;
+    justify-content: center;
+
+}
+.menCard{
+    display: flex;
+    justify-content: center;
+
+}
+.card{
+    width: 300px;
+    background-color: #fff;
+    margin-inline: 22px;
+    margin-top: 24px;
+}
+.card img{
+    width: 100%;
+    height: 300px;
+}
+.card p{
+    padding: 8px;
+}
+.slides{
+    width: 1200px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+.slides .slideCard{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    text-align: center;
+    transition: all 1s ease;
+    
+}
+.slideCard img{
+    margin-inline: 20px;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+}
+.blogs{
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+.blogCard{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    padding: 12px;
+}
+.blogCard img{
+    width: 250px;
+ 
+}
+.blogCard p{
+    margin-top: 22px;
+}
+.blogCard a{
+    padding: 5px 13px;
+    background-color: rgb(0, 153, 255);
+    position: relative;
+    top: 22px;
+    color: white;
+    text-decoration: none;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 66px;
+    margin-top: 66px;
+    background-color: rgb(250, 140, 89);
+}
+.text p{
+    margin-top: 12px;
+}
+.cardDetail{
+    display: flex;
+    padding: 33px;
+    gap: 22px;
+}
+.cardDetail img{
+    width: 400px;
+}
+.cardDetail p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.cardDetail h3{
+    margin-top: 32px;
+}
+.cardDetail button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 33px;
+    cursor: pointer;
+}
+.detailText{
+    font-size: 20px;
+    margin-top: 33px;
+}
+.detailText i{
+    color: orange;
+    font-size: 22px;
+    margin-top: 22px;
+}
+.detailText a{
+    padding: 8px 22px;
+    background-color: rgb(250, 29, 66);
+    color: white;
+    text-decoration: none;
+}
