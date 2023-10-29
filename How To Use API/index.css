@@ -1,0 +1,91 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ 
+.container{
+   width: 500px;
+   padding: 20px;
+   background-color: #fff;
+   border-radius: 6px;
+   box-shadow: 1px 3px 4px 4px rgb(192, 192, 192);
+   margin: auto;
+   margin-top: 33px;
+}
+.container .searchBar{
+    display: flex;
+    gap: 4px;
+}
+.container input{
+    width: 80%;
+    padding: 13px;
+    height: 16px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #e8e7e7;
+    border-radius: 4px;
+}
+.container button{
+    width: 80px;
+    border: none;
+    background-color: rgb(255, 140, 0);
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.text{
+    margin-top: 33px;
+    padding: 22px;
+}
+.text p{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.text a{
+   padding: 5px 16px;
+   background-color: rgb(255, 128, 0);
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+    position: relative;
+    top: 23px;
+    
+}
+.text #type{
+    margin-top: -1px;
+    color: rgb(99, 99, 99);
+    
+}
+.text p span{
+    color: rgb(77, 77, 77);
+}
+.text h1{
+    text-align: center;
+}
+nav{
+    background-color: rgb(5, 100, 100);
+    color: white;
+    text-align: center;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    font-size: 27px;
+}
+
+@media screen and (max-width:600px){
+    .container{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:350px){
+    nav{
+        font-size: 22px;
+    }
+}

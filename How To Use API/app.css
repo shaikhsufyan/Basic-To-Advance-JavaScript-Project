@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 100, 100);
+    color: white;
+    font-size: 28px;
+    height: 90px;
+}
+.container{
+    width: 500px;
+    padding: 22px;
+    background-color: #fff;
+    box-shadow: 1px 3px 3px 3px rgb(215, 215, 215);
+    border-radius: 6px;
+    position: relative;
+    top: 43px;
+    margin: auto;
+}
+.searchBar{
+    display: flex;
+    gap: 4px;
+}
+.container input{
+    width: 80%;
+    padding: 12px;
+    height: 15px;
+    border: none;
+    outline: none;
+    background-color: #e1e1e1;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.searchBar button{
+    width: 80px;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+}
+.text{
+    padding: 22px;
+    margin-top: 22px;
+}
+.text p{
+    margin-top: 18px;
+}
+.text a{
+    padding: 6px 20px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    top: 16px;
+}
+.text span{
+    color: rgb(92, 91, 91);
+}
+
+@media screen and (max-width:600px){
+    .container{
+        width: 80%;
+    }
+}
