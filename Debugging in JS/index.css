@@ -1,0 +1,11 @@
+#btn{
+    background-color: rgb(0, 161, 161);
+    color: white;
+    border: none;
+    width: 200px;
+    height: 40px;
+    font-size: 22px;
+}
+.container{
+   text-align: center;
+}
